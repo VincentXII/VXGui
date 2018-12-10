@@ -109,12 +109,12 @@ sys.stdout.write("Installing backend %s\n" % platdir)
 
 setup(
     cmdclass = cmd_class,
-    name = "PyGUI",
+    name = "VXGui",
     version = version,
     description = "Pythonic Cross-Platform GUI Framework",
-    author = "Gregory Ewing",
-    author_email = "greg.ewing@canterbury.ac.nz",
-    url = "http://www.cosc.canterbury.ac.nz/greg.ewing/python_gui",
+    author = "Vincent Larkin",
+    author_email = "vincent@vincentxii.us",
+    url = "https://vxgui.vincentxii.us",
     #download_url=DOWNLOAD_URL,
     long_description = open('README.txt').read(),
     platforms = ["Linux", "MacOS X", "Windows"],
@@ -123,7 +123,7 @@ setup(
     package_data = {"GUI": [os.path.join("Resources", "*", "*")]},
     ext_modules = ext_modules,
     #maintainer=MAINTAINER,
-    #maintainer_email=MAINTAINER_EMAIL,
+    #maintainer_email=vincent@vincentxii.us,
     keywords = 'GUI Cross-Platform',
-    license = 'This is free software. You are welcome to use it however you want.'
+    license = 'The Vincent General License'
 )
