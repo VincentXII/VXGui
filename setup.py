@@ -16,7 +16,7 @@ from distutils_extensions import pygui_build_py
 #
 
 CLASSIFIERS = """\
-Development Status :: 3 - Alpha
+Development Status :: 1 - Planning
 Environment :: MacOS X :: Cocoa
 Environment :: Win32 (MS Windows)
 Environment :: X11 Applications :: GTK
@@ -122,8 +122,8 @@ setup(
     package_subdirs = {"GUI": ["Generic", platdir]},
     package_data = {"GUI": [os.path.join("Resources", "*", "*")]},
     ext_modules = ext_modules,
-    #maintainer=MAINTAINER,
-    #maintainer_email=vincent@vincentxii.us,
+    maintainer='Vincent L.',
+    maintainer_email='vincent@vincentxii.us',
     keywords = 'GUI Cross-Platform',
     license = 'The Vincent General License'
 )
