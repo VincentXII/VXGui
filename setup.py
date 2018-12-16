@@ -56,7 +56,7 @@ cmd_class = {'build_py': pygui_build_py}
 ext_modules = []
 
 version = '<version not found>'
-version_file = os.path.join("GUI", "Version.py") 
+version_file = os.path.join("VXGui", "Version.py") 
 # get accurate version sring by running Version.py
 exec(compile(open(version_file,'r').read(), version_file, 'exec'))
 
@@ -118,9 +118,9 @@ setup(
     #download_url=DOWNLOAD_URL,
     long_description = open('README.txt').read(),
     platforms = ["Linux", "MacOS X", "Windows"],
-    packages = ["GUI"],
-    package_subdirs = {"GUI": ["Generic", platdir]},
-    package_data = {"GUI": [os.path.join("Resources", "*", "*")]},
+    packages = ["VXGui"],
+    package_subdirs = {"VXGui": ["Generic", platdir]},
+    package_data = {"VXGui": [os.path.join("Resources", "*", "*")]},
     ext_modules = ext_modules,
     maintainer='Vincent L.',
     maintainer_email='vincent@vincentxii.us',
