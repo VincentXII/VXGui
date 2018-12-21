@@ -1,6 +1,6 @@
 #--------------------------------------------------------------------
 #
-#   PyGUI - Top level package initialisation
+#   VXGui - Top level package initialisation
 #
 #--------------------------------------------------------------------
 
@@ -11,10 +11,10 @@ import sys, types
 #  directory named by the second item is used.
 
 _versions = [
-    ("objc", "Cocoa"),
+    #("objc", "Cocoa"),
     ("nt", "Win32"),
-    ("gi.repository.Gtk", "GtkGI"),
-    ("gtk", "Gtk"),
+    #("gi.repository.Gtk", "GtkGI"),
+    #("gtk", "Gtk"),
 ]
 
 #  
@@ -42,7 +42,7 @@ def export(obj):
 #
 
 from os import environ as _env
-_platdir = _env.get("PYGUI_IMPLEMENTATION")
+_platdir = _env.get("VXGUI_IMPLEMENTATION")
 if not _platdir:
     for _testmod, _platdir in _versions:
         try:
@@ -51,10 +51,10 @@ if not _platdir:
         except ImportError:
             continue
     else:
-        raise ImportError("Unable to find an implementation of PyGUI for this installation")
+        raise ImportError("Unable to find an implementation of VXGui for this installation")
 
-if _env.get("PYGUI_IMPLEMENTATION_DEBUG"):
-    sys.stderr.write("PyGUI: Using implementation: %s\n" % _platdir)
+if _env.get("VXGUI_IMPLEMENTATION_DEBUG"):
+    sys.stderr.write("VXGui: Using implementation: %s\n" % _platdir)
 
 #
 #  Append the chosen platform-dependent directory to the search
@@ -70,14 +70,14 @@ __path__.append(_join(_here, "Generic"))
 #  Import global functions
 #
 
-from GUI.Globals import application, run
-from GUI.Colors import rgb
+from VXGui.Globals import application, run
+from VXGui.Colors import rgb
 
 #
 #  Set up initial resource search path
 #
 
-from GUI import Resources
+from VXGui import Resources
 Resources._add_file_path(__file__)
 _main_dir = sys.path[0]
 Resources._add_directory_path(_main_dir)
@@ -91,4 +91,4 @@ Resources._add_directory_path(_main_dir, 1)
 #   Perform global initialisation
 #
 
-import GUI.Application
+import VXGui.Application

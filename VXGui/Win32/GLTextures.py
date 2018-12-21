@@ -1,5 +1,5 @@
 #
-#   PyGUI - OpenGL Textures - Win32
+#   VXGui - OpenGL Textures - Win32
 #
 
 from GUI.GGLTextures import Texture as GTexture

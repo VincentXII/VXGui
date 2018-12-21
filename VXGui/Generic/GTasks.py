@@ -1,5 +1,5 @@
 #
-#   PyGUI - Tasks - Generic
+#   VXGui - Tasks - Generic
 #
 
 from GUI.Properties import Properties, overridable_property

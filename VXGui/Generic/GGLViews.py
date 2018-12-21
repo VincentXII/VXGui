@@ -1,5 +1,5 @@
 #
-#   PyGUI - OpenGL View - Generic
+#   VXGui - OpenGL View - Generic
 #
 
 from OpenGL.GL import glViewport, glMatrixMode, glLoadIdentity, \

@@ -1,5 +1,5 @@
 #
-#   PyGUI - Enumerated type facilities
+#   VXGui - Enumerated type facilities
 #
 
 class EnumMap(dict):

@@ -8,7 +8,7 @@ from GUI import MessageHandler
 from GUI.Geometry import add_pt, sub_pt, rect_size, rect_sized, rect_topleft
 from GUI import application
 
-_user_tab_stop = os.environ.get("PYGUI_KEYBOARD_NAVIGATION") or None
+_user_tab_stop = os.environ.get("VXGUI_KEYBOARD_NAVIGATION") or None
 #  Allow "False", "True", "0", "1"
 if _user_tab_stop is not None:
     _user_tab_stop = _user_tab_stop.strip().capitalize()
@@ -18,7 +18,7 @@ if _user_tab_stop is not None:
         try:
             _user_tab_stop = int(_user_tab_stop)
         except ValueError:
-            sys.stderr.write("PYGUI_KEYBOARD_NAVIGATION: Unrecognized value %r"
+            sys.stderr.write("VXGUI_KEYBOARD_NAVIGATION: Unrecognized value %r"
                 % _user_tab_stop)
             _user_tab_stop = None
 

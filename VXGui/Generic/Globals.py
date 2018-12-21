@@ -1,6 +1,6 @@
 #--------------------------------------------------------------------
 #
-#   PyGUI - Generic - Global variables and functions
+#   VXGui - Generic - Global variables and functions
 #
 #--------------------------------------------------------------------
 

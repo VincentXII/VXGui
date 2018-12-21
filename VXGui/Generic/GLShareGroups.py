@@ -1,5 +1,5 @@
 #
-#   PyGUI - OpenGL Context Sharing - Generic
+#   VXGui - OpenGL Context Sharing - Generic
 #
 
 from weakref import WeakKeyDictionary

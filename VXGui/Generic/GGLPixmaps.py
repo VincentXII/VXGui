@@ -1,5 +1,5 @@
 #
-#   PyGUI - OpenGL Pixmap - Generic
+#   VXGui - OpenGL Pixmap - Generic
 #
 
 from OpenGL.GL import glViewport

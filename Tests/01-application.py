@@ -3,7 +3,7 @@
 #
 
 import sys
-from GUI import Application, Window
+from VXGui import Application, Window
 from testing import say
 
 class TestApp(Application):

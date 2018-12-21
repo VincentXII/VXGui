@@ -79,29 +79,6 @@ else:
     
 sys.stdout.write("Installing backend %s\n" % platdir)
 
-#
-#   Pyrex
-#
-
-#have_pyrex = 0
-
-#try:
-#	import Pyrex.Distutils
-#	print "Pyrex available"
-#	have_pyrex = 1
-#	cmdclass = {'build_ext': Pyrex.Distutils.build_ext}
-#except ImportError:
-#	pass
-
-#if sys.platform == "darwin":
-#	if have_pyrex:
-#		agl_source = "GUI/Mac/AGL.pyx"
-#	else:
-#		agl_source = "GUI/Mac/AGL.c"
-#	agl_module = Extension("GUI.Mac.AGL", [agl_source], 
-#		include_dirs = ["/System/Library/Frameworks/AGL.framework/Headers"],
-#		extra_link_args = ["-Wl,-w", "-framework", "AGL", "-framework", "Carbon"])
-#	ext_modules.append(agl_module)
 
 #
 #   Setup

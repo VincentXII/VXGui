@@ -1,5 +1,5 @@
 #
-#   PyGUI - OpenGL Contexts - Generic
+#   VXGui - OpenGL Contexts - Generic
 #
 
 from GUI.Properties import overridable_property
@@ -68,5 +68,5 @@ class GLContext(object):
 def current_share_group():
     group = _current_share_group
     if not group:
-        raise ValueError("No current PyGUI OpenGL context")
+        raise ValueError("No current VXGui OpenGL context")
     return group

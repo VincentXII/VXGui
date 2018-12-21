@@ -1,5 +1,5 @@
 #
-#   PyGUI - OpenGL Display Lists - Generic
+#   VXGui - OpenGL Display Lists - Generic
 #
 
 from weakref import WeakKeyDictionary

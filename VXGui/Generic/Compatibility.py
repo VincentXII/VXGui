@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
 #
-#   PyGUI - Facilities for compatibility across Python versions
+#   VXGui - Facilities for compatibility across Python versions
 #
 #-------------------------------------------------------------------------------
 
