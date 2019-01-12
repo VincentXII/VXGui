@@ -1,10 +1,10 @@
 #
-#		Python GUI - Frames - Gtk
+#		Python VXGUI - Frames - Gtk
 #
 
 from gtk import Fixed
-from GUI import export
-from GUI.GFrames import Frame as GFrame
+from VXGUI import export
+from VXGUI.GFrames import Frame as GFrame
 
 class Frame(GFrame):
 

@@ -1,6 +1,6 @@
-from GUI import Window, Button, RadioGroup, RadioButton, \
+from VXGUI import Window, Button, RadioGroup, RadioButton, \
     application
-from GUI.Alerts import alert, alert2, alert3, note_alert, stop_alert, \
+from VXGUI.Alerts import alert, alert2, alert3, note_alert, stop_alert, \
     ask, confirm, ask_or_cancel, confirm_or_cancel
 from testing import say
 

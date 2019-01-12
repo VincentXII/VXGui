@@ -1,5 +1,5 @@
 #
-#   PyGUI - Edit command handling - Generic
+#   VXGUI - Edit command handling - Generic
 #
 
 from VXGUI import application

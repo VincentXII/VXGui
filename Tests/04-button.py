@@ -1,6 +1,6 @@
-from GUI import Window, Button, Font, application
-from GUI.StdFonts import system_font
-from GUI.StdColors import red, black
+from VXGUI import Window, Button, Font, application
+from VXGUI.StdFonts import system_font
+from VXGUI.StdColors import red, black
 from testing import say
 
 def say_hello():

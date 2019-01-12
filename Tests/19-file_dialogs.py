@@ -1,9 +1,9 @@
 import os, sys
-from GUI import Window, Button, CheckBox, application
-from GUI.Files import FileType, DirRef, FileRef
+from VXGUI import Window, Button, CheckBox, application
+from VXGUI.Files import FileType, DirRef, FileRef
 from testing import say
 
-from GUI import FileDialogs
+from VXGUI import FileDialogs
 functions = {}
 function_names = [
     'request_old_file',

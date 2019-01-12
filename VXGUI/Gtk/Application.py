@@ -1,12 +1,12 @@
 #
-#		Python GUI - Application class - Gtk
+#		Python VXGUI - Application class - Gtk
 #
 
 import sys
 import gtk
-from GUI import export
-from GUI import application
-from GUI.GApplications import Application as GApplication
+from VXGUI import export
+from VXGUI import application
+from VXGUI.GApplications import Application as GApplication
 
 class Application(GApplication):
 

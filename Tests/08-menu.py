@@ -1,4 +1,4 @@
-from GUI import Window, Menu, Label, application
+from VXGUI import Window, Menu, Label, application
 from testing import say
 
 class MenuTestWindow(Window):

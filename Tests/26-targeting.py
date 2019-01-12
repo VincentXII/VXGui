@@ -2,8 +2,8 @@
 #   PyGUI - Test targeted() and untargeted() methods
 #
 
-from GUI import View, Window, application
-from GUI.StdColors import red, green
+from VXGUI import View, Window, application
+from VXGUI.StdColors import red, green
 from testing import say
 
 class TestPatch(View):

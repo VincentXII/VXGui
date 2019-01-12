@@ -1,11 +1,11 @@
 #
-#   Python GUI - Scrollable Views - Gtk
+#   Python VXGUI - Scrollable Views - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI import Scrollable
-from GUI.GScrollableViews import ScrollableView as GScrollableView, \
+from VXGUI import export
+from VXGUI import Scrollable
+from VXGUI.GScrollableViews import ScrollableView as GScrollableView, \
     default_extent, default_line_scroll_amount, default_scrolling
 
 class ScrollableView(GScrollableView, Scrollable):

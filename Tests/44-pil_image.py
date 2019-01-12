@@ -1,11 +1,11 @@
-from GUI import Window, View, application, rgb
-from GUI.Geometry import offset_rect, rect_sized
-from GUI.StdColors import yellow
-from GUI.PIL import image_from_pil_image
+from VXGUI import Window, View, application, rgb
+from VXGUI.Geometry import offset_rect, rect_sized
+from VXGUI.StdColors import yellow
+from VXGUI.PIL import image_from_pil_image
 import Image
 from testing import say
 
-from GUI import PIL
+from VXGUI import PIL
 PIL.debug_pil = True
 
 skyblue = rgb(102/255.0, 204/255.0, 1.0)

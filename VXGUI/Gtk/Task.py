@@ -1,10 +1,10 @@
 #
-#   PyGUI - Tasks - Gtk
+#   VXGUI - Tasks - Gtk
 #
 
 import gobject
-from GUI import export
-from GUI.GTasks import Task as GTask
+from VXGUI import export
+from VXGUI.GTasks import Task as GTask
 
 class Task(GTask):
 

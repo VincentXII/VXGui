@@ -1,13 +1,13 @@
 #
-#   Python GUI - Components - Gtk
+#   Python VXGUI - Components - Gtk
 #
 
 import gtk
 from gtk import gdk
-from GUI import export
-from GUI import Event
-from GUI.Geometry import sub_pt
-from GUI.GComponents import Component as GComponent
+from VXGUI import export
+from VXGUI import Event
+from VXGUI.Geometry import sub_pt
+from VXGUI.GComponents import Component as GComponent
 
 _gdk_events_of_interest = (
     gdk.POINTER_MOTION_MASK |

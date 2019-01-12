@@ -1,6 +1,6 @@
 #---------------------------------------------------------------------------
 #
-#   PyGUI - Utilities for use by layout components - Generic
+#   VXGUI - Utilities for use by layout components - Generic
 #
 #---------------------------------------------------------------------------
 

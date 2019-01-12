@@ -2,9 +2,9 @@
 #		User-defined views used by test programs
 #
 
-from GUI import View, Color, Font
-from GUI.StdFonts import system_font, application_font
-from GUI.StdColors import black, red, green, blue, yellow, white
+from VXGUI import View, Color, Font
+from VXGUI.StdFonts import system_font, application_font
+from VXGUI.StdColors import black, red, green, blue, yellow, white
 from testing import say
 
 fancy_font = Font("Times", 48, ['italic'])

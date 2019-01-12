@@ -1,10 +1,10 @@
 #
-#   Python GUI - Colors - Gtk
+#   Python VXGUI - Colors - Gtk
 #
 
 from gtk import gdk
-from GUI import export
-from GUI.GColors import Color as GColor
+from VXGUI import export
+from VXGUI.GColors import Color as GColor
 
 class Color(GColor):
 

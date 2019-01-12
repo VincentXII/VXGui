@@ -1,5 +1,5 @@
 #
-#		Python GUI - Fonts - Gtk
+#		Python VXGUI - Fonts - Gtk
 #
 
 from __future__ import division
@@ -7,8 +7,8 @@ from __future__ import division
 import sys
 import pango, gtk
 from gtk import gdk
-from GUI import export
-from GUI.GFonts import Font as GFont
+from VXGUI import export
+from VXGUI.GFonts import Font as GFont
 
 class Font(GFont):
 

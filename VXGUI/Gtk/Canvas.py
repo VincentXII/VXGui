@@ -1,17 +1,17 @@
 #--------------------------------------------------------------------
 #
-#   Python GUI - Canvas - Gtk
+#   Python VXGUI - Canvas - Gtk
 #
 #--------------------------------------------------------------------
 
 from math import sin, cos, pi, floor
 from cairo import OPERATOR_OVER, OPERATOR_SOURCE, FILL_RULE_EVEN_ODD
-from GUI import export
-from GUI.Geometry import sect_rect
-from GUI.StdFonts import application_font
-from GUI.StdColors import black, white
-from GUI.GCanvases import Canvas as GCanvas
-from GUI.GCanvasPaths import CanvasPaths as GCanvasPaths
+from VXGUI import export
+from VXGUI.Geometry import sect_rect
+from VXGUI.StdFonts import application_font
+from VXGUI.StdColors import black, white
+from VXGUI.GCanvases import Canvas as GCanvas
+from VXGUI.GCanvasPaths import CanvasPaths as GCanvasPaths
 
 deg = pi / 180
 twopi = 2 * pi

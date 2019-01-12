@@ -1,12 +1,12 @@
 #--------------------------------------------------------------
 #
-#   PyGUI - PIL interface - Gtk
+#   VXGUI - PIL interface - Gtk
 #
 #--------------------------------------------------------------
 
 from gtk import gdk
 from gtk.gdk import COLORSPACE_RGB
-from GUI import Image
+from VXGUI import Image
 
 def image_from_pil_image(pil_image):
     """Creates an Image from a Python Imaging Library (PIL)

@@ -2,8 +2,8 @@
 #   Test user-defined views.
 #
 
-from GUI import Window, View, application
-from GUI.StdColors import red
+from VXGUI import Window, View, application
+from VXGUI.StdColors import red
 from testing import say
 
 class View1(View):

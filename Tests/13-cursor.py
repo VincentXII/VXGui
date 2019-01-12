@@ -2,7 +2,7 @@
 #   Basic cursor test
 #
 
-from GUI import Window, StdCursors, application
+from VXGUI import Window, StdCursors, application
 from TestViews import TestDrawing
 from TestScrollableViews import TestScrollableView
 from testing import say

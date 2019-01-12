@@ -1,4 +1,4 @@
-from GUI import Window, PaletteView, run
+from VXGUI import Window, PaletteView, run
 from testing import say
 
 class TestPaletteView(PaletteView):

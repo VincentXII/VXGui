@@ -1,13 +1,13 @@
 #
-#   Python GUI - Controls - Gtk
+#   Python VXGUI - Controls - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI.Enumerations import EnumMap
-from GUI import Color
-from GUI import Font
-from GUI.GControls import Control as GControl
+from VXGUI import export
+from VXGUI.Enumerations import EnumMap
+from VXGUI import Color
+from VXGUI import Font
+from VXGUI.GControls import Control as GControl
 
 _justs = ['left', 'center', 'right']
 

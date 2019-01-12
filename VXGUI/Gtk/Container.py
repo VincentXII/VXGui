@@ -1,11 +1,11 @@
 #
-#   Python GUI - Containers - Gtk version
+#   Python VXGUI - Containers - Gtk version
 #
 
 from gtk import gdk
-from GUI import export
-from GUI.Geometry import inset_rect
-from GUI.GContainers import Container as GContainer
+from VXGUI import export
+from VXGUI.Geometry import inset_rect
+from VXGUI.GContainers import Container as GContainer
 
 class Container(GContainer):
     #  Subclasses must set the inner widget to be a Fixed or Layout

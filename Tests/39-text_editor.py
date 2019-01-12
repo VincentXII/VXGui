@@ -1,5 +1,5 @@
-from GUI import TextEditor, Window, Menu, Font, StdFonts, application
-from GUI.StdMenus import basic_menus
+from VXGUI import TextEditor, Window, Menu, Font, StdFonts, application
+from VXGUI.StdMenus import basic_menus
 from testing import say
 
 font_size = StdFonts.application_font.size

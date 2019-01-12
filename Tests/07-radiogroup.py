@@ -1,4 +1,4 @@
-from GUI import Window, Button, RadioButton, RadioGroup, application
+from VXGUI import Window, Button, RadioButton, RadioGroup, application
 from testing import say
 
 labels = ["Banana", "Chocolate", "Strawberry"]

@@ -1,10 +1,10 @@
 #
-#   Python GUI - Common code for scrollable components - Gtk
+#   Python VXGUI - Common code for scrollable components - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI import Globals
+from VXGUI import export
+from VXGUI import Globals
 
 gtk_scroll_policies = [gtk.POLICY_NEVER, gtk.POLICY_ALWAYS]
 

@@ -1,17 +1,17 @@
 #
-#   Python GUI - Windows - Gtk version
+#   Python VXGUI - Windows - Gtk version
 #
 
 import sys
 import gtk
 from gtk import gdk
-from GUI import export
-from GUI import export
-from GUI.GGeometry import sub_pt
-from GUI import Component
-from GUI import Container
-from GUI import application
-from GUI.GWindows import Window as GWindow
+from VXGUI import export
+from VXGUI import export
+from VXGUI.GGeometry import sub_pt
+from VXGUI import Component
+from VXGUI import Container
+from VXGUI import application
+from VXGUI.GWindows import Window as GWindow
 
 _default_width = 200
 _default_height = 200

@@ -1,4 +1,4 @@
-from GUI import Window, RadioButton, application
+from VXGUI import Window, RadioButton, application
 from testing import say
 
 btn = RadioButton(x = 30, y = 30, width = 150, title = "Radio Button")

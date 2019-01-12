@@ -1,4 +1,4 @@
-from GUI import Application, Window, Document, View, rgb, application
+from VXGUI import Application, Window, Document, View, rgb, application
 from testing import say
 
 class TestDoc(Document):

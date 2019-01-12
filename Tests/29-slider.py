@@ -2,7 +2,7 @@
 #   PyGUI - Slider test
 #
 
-from GUI import Slider, Window, run
+from VXGUI import Slider, Window, run
 from testing import say
 
 def slid(slider, orient, number):

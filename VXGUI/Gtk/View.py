@@ -1,8 +1,8 @@
 #
-#   Python GUI - Views - Gtk
+#   Python VXGUI - Views - Gtk
 #
 
-from GUI import export
-from GUI.GViews import View
+from VXGUI import export
+from VXGUI.GViews import View
 
 export(View)

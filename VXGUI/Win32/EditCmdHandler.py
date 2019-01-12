@@ -1,5 +1,5 @@
 #
-#   PyGUI - Edit command handling - Win32
+#   VXGUI - Edit command handling - Win32
 #
 
 from VXGUI import export

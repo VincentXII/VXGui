@@ -1,9 +1,9 @@
 #
-#   Python GUI - Color constants and functions - Gtk
+#   Python VXGUI - Color constants and functions - Gtk
 #
 
 from gtk import Style
-from GUI import Color
+from VXGUI import Color
 
 rgb = Color
 

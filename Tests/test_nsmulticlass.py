@@ -1,5 +1,5 @@
 from AppKit import NSTextField
-from GUI.Utils import NSMultiClass
+from VXGUI.Utils import NSMultiClass
 
 class X(object):
     """Class X"""

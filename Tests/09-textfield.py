@@ -1,4 +1,4 @@
-from GUI import Font, Window, TextField, Button, application
+from VXGUI import Font, Window, TextField, Button, application
 from testing import say
 
 fancy = Font("Times", 24, ['italic'])

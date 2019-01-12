@@ -1,4 +1,4 @@
-from GUI import Window, Button, CheckBox, Label, TextField, Row, application
+from VXGUI import Window, Button, CheckBox, Label, TextField, Row, application
 from testing import say
 
 def make_row(align):

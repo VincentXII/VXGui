@@ -1,8 +1,8 @@
 # This program is based on the color.c program written by Naofumi.
 
 import os, sys
-from GUI import Window, application
-from GUI.GL import GLView, GLConfig
+from VXGUI import Window, application
+from VXGUI.GL import GLView, GLConfig
 from OpenGL.GL import glClearColor, glClear, glBegin, glColor3f, glVertex2i, glEnd, \
     GL_COLOR_BUFFER_BIT, GL_TRIANGLES
 from TestInput import TestKeyEvents, TestMouseEvents

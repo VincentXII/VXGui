@@ -1,4 +1,4 @@
-from GUI import Window, Button, application
+from VXGUI import Window, Button, application
 from TestScrollableViews import TestScrollableView
 from testing import say
 

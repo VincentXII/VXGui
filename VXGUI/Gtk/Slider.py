@@ -1,10 +1,10 @@
 #
-#   Python GUI - Slider - Gtk
+#   Python VXGUI - Slider - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI.GSliders import Slider as GSlider
+from VXGUI import export
+from VXGUI.GSliders import Slider as GSlider
 
 class Slider(GSlider):
 

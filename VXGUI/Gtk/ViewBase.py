@@ -1,10 +1,10 @@
 #
-#   Python GUI - View Base - Gtk
+#   Python VXGUI - View Base - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI.GViewBases import ViewBase as GViewBase
+from VXGUI import export
+from VXGUI.GViewBases import ViewBase as GViewBase
 
 class ViewBase(GViewBase):
 

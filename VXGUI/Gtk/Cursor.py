@@ -1,10 +1,10 @@
 #
-#		Python GUI - Cursors - Gtk
+#		Python VXGUI - Cursors - Gtk
 #
 
 from gtk import gdk
-from GUI import export
-from GUI.GCursors import Cursor as GCursor
+from VXGUI import export
+from VXGUI.GCursors import Cursor as GCursor
 
 class Cursor(GCursor):
     #

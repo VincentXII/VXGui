@@ -1,4 +1,4 @@
-from GUI import Window, View, CheckBox, Button, Label, \
+from VXGUI import Window, View, CheckBox, Button, Label, \
          RadioButton, RadioGroup, TextField
 from TestViews import TestDrawing
 from TestScrollableViews import TestScrollableDrawing
@@ -64,8 +64,8 @@ def main():
 
     win.show()
 
-    import GUI
-    GUI.run()
+    import VXGUI
+    VXGUI.run()
 
 instructions = """
 There should be a window containing:

@@ -1,8 +1,8 @@
 #
-#   PyGUI - GL Context - Gtk
+#   VXGUI - GL Context - Gtk
 #
 
-from GUI.GGLContexts import GLContext as GGLContext
+from VXGUI.GGLContexts import GLContext as GGLContext
 
 try:
     from OpenGL.GL import glFlush

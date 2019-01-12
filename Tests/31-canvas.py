@@ -2,9 +2,9 @@
 #   PyGUI - Canvas primitives test
 #
 
-from GUI import Window, View, Menu, application
-from GUI.StdMenus import basic_menus
-from GUI.StdColors import black, white
+from VXGUI import Window, View, Menu, application
+from VXGUI.StdMenus import basic_menus
+from VXGUI.StdColors import black, white
 from testing import say
 
 r = 40

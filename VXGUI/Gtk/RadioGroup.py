@@ -1,10 +1,10 @@
 #
-#		Python GUI - Radio groups - Gtk
+#		Python VXGUI - Radio groups - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI.GRadioGroups import RadioGroup as GRadioGroup
+from VXGUI import export
+from VXGUI.GRadioGroups import RadioGroup as GRadioGroup
 
 class RadioGroup(GRadioGroup):
 

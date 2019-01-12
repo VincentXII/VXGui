@@ -1,5 +1,5 @@
 #
-#   PyGUI - OpenGL View - Gtk/GtkGLExt
+#   VXGUI - OpenGL View - Gtk/GtkGLExt
 #
 
 try:
@@ -8,14 +8,14 @@ try:
 except ImportError, e:
     raise ImportError("OpenGL support is not available (%s)" % e)
 
-from GUI.GGLConfig import GLConfig as GGLConfig, GLConfigError
-from GUI.GGLViews import GLView as GGLView
-from GUI.GGLPixmaps import GLPixmap as GGLPixmap
-from GUI import ImageBase
-from GUI.GtkPixmaps import GtkPixmap
-from GUI.GLContexts import GLContext
-from GUI.GLTextures import Texture
-from GUI.GLDisplayLists import DisplayList
+from VXGUI.GGLConfig import GLConfig as GGLConfig, GLConfigError
+from VXGUI.GGLViews import GLView as GGLView
+from VXGUI.GGLPixmaps import GLPixmap as GGLPixmap
+from VXGUI import ImageBase
+from VXGUI.GtkPixmaps import GtkPixmap
+from VXGUI.GLContexts import GLContext
+from VXGUI.GLTextures import Texture
+from VXGUI.GLDisplayLists import DisplayList
 
 #------------------------------------------------------------------------------
 

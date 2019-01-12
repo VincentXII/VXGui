@@ -1,6 +1,6 @@
-from GUI import Window, View, Image, application
-from GUI.Geometry import offset_rect, rect_sized
-from GUI.StdColors import yellow
+from VXGUI import Window, View, Image, application
+from VXGUI.Geometry import offset_rect, rect_sized
+from VXGUI.StdColors import yellow
 from testing import say
 
 

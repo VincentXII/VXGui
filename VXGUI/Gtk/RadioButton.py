@@ -1,10 +1,10 @@
 #
-#		Python GUI - Radio buttons - Gtk
+#		Python VXGUI - Radio buttons - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI.GRadioButtons import RadioButton as GRadioButton
+from VXGUI import export
+from VXGUI.GRadioButtons import RadioButton as GRadioButton
 
 class RadioButton(GRadioButton):
     

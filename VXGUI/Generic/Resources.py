@@ -1,5 +1,5 @@
 #
-#   PyGUI - Resources - Generic
+#   VXGUI - Resources - Generic
 #
 
 import os

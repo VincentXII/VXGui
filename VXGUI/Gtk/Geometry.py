@@ -1,5 +1,5 @@
 #
-#   Python GUI - Points and Rectangles - Gtk
+#   Python VXGUI - Points and Rectangles - Gtk
 #
 
-from GUI.GGeometry import *
+from VXGUI.GGeometry import *

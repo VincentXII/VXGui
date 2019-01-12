@@ -1,10 +1,10 @@
 from __future__ import division
 from math import sin, pi
 from numpy import zeros, uint8
-from GUI import Window, View, application, rgb
-from GUI.StdColors import yellow
-from GUI.Numerical import image_from_ndarray
-from GUI.Geometry import offset_rect
+from VXGUI import Window, View, application, rgb
+from VXGUI.StdColors import yellow
+from VXGUI.Numerical import image_from_ndarray
+from VXGUI.Geometry import offset_rect
 from testing import say
 
 background = rgb(0.25, 0.25, 0.25)

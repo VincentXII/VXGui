@@ -1,13 +1,13 @@
 #
-#   Python GUI - Text Editor - Gtk
+#   Python VXGUI - Text Editor - Gtk
 #
 
 import pango, gtk
-from GUI import export
-from GUI import application
-from GUI import Scrollable
-from GUI import Font
-from GUI.GTextEditors import TextEditor as GTextEditor
+from VXGUI import export
+from VXGUI import application
+from VXGUI import Scrollable
+from VXGUI import Font
+from VXGUI.GTextEditors import TextEditor as GTextEditor
 
 class TextEditor(GTextEditor, Scrollable):
 

@@ -1,4 +1,4 @@
-from GUI import Window, application
+from VXGUI import Window, application
 from TestViews import TestDrawing, fancy_font as f
 from TestInput import TestKeyEvents, TestTrackMouse
 from testing import say

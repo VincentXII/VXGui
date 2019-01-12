@@ -1,13 +1,13 @@
 #
-#		Python GUI - Images - Gtk
+#		Python VXGUI - Images - Gtk
 #
 
 from __future__ import division
 from array import array
 import cairo
 from gtk import gdk
-from GUI import export
-from GUI.GImages import Image as GImage
+from VXGUI import export
+from VXGUI.GImages import Image as GImage
 
 class Image(GImage):
 

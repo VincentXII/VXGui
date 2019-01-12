@@ -3,7 +3,7 @@
 #
 
 import os, sys
-from GUI import Window, Image, Cursor, application
+from VXGUI import Window, Image, Cursor, application
 from TestViews import TestDrawing
 from TestScrollableViews import TestScrollableView
 from testing import say

@@ -1,10 +1,10 @@
 #
-#		Python GUI - Check boxes - Gtk
+#		Python VXGUI - Check boxes - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI.GCheckBoxes import CheckBox as GCheckBox
+from VXGUI import export
+from VXGUI.GCheckBoxes import CheckBox as GCheckBox
 
 class CheckBox(GCheckBox):
     

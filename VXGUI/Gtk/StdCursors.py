@@ -1,9 +1,9 @@
 #
-#		Python GUI - Standard Cursors - Gtk
+#		Python VXGUI - Standard Cursors - Gtk
 #
 
 from gtk import gdk
-from GUI import Cursor
+from VXGUI import Cursor
 
 __all__ = [
     'arrow',

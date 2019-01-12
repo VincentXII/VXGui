@@ -1,8 +1,8 @@
 #
-#   PyGUI - Edit command handling - Gtk
+#   VXGUI - Edit command handling - Gtk
 #
 
-from GUI import export
-from GUI.GEditCmdHandlers import EditCmdHandler
+from VXGUI import export
+from VXGUI.GEditCmdHandlers import EditCmdHandler
 
 export(EditCmdHandler)

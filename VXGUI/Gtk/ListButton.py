@@ -1,12 +1,12 @@
 #--------------------------------------------------------------
 #
-#   PyGUI - Pop-up list control - Gtk
+#   VXGUI - Pop-up list control - Gtk
 #
 #--------------------------------------------------------------
 
 import gtk
-from GUI import export
-from GUI.GListButtons import ListButton as GListButton
+from VXGUI import export
+from VXGUI.GListButtons import ListButton as GListButton
 
 class ListButton(GListButton):
 

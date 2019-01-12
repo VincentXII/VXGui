@@ -1,4 +1,4 @@
-from GUI import Window, Button, Task, application
+from VXGUI import Window, Button, Task, application
 from testing import say
 
 def do_task():

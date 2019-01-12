@@ -2,7 +2,7 @@
 #   PyGUI - Test coloured text drawing
 #
 
-from GUI import Window, View, StdColors, run
+from VXGUI import Window, View, StdColors, run
 from testing import say
 
 tests = [

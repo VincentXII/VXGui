@@ -1,5 +1,5 @@
-from GUI import application, Task
-from GUI.FileDialogs import request_old_file
+from VXGUI import application, Task
+from VXGUI.FileDialogs import request_old_file
 
 def tick():
     print "Tick"

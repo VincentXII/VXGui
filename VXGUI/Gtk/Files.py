@@ -1,5 +1,5 @@
 #
-#   Python GUI - File references and types - Gtk
+#   Python VXGUI - File references and types - Gtk
 #
 
-from GUI.GFiles import *
+from VXGUI.GFiles import *

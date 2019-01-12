@@ -1,12 +1,12 @@
 #
-#		Python GUI - Menus - Gtk version
+#		Python VXGUI - Menus - Gtk version
 #
 
 import gtk
 from gtk import gdk
-from GUI import export
-from GUI.Globals import application
-from GUI.GMenus import Menu as GMenu, MenuItem
+from VXGUI import export
+from VXGUI.Globals import application
+from VXGUI.GMenus import Menu as GMenu, MenuItem
 
 def _report_accel_changed_(*args):
     print "Menus: accel_changed:", args

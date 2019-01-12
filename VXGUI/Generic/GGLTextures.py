@@ -1,5 +1,5 @@
 #
-#   PyGUI - OpenGL Textures - Generic
+#   VXGUI - OpenGL Textures - Generic
 #
 
 from weakref import WeakKeyDictionary

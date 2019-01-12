@@ -2,7 +2,7 @@
 #   PyGUI - Frame test
 #
 
-from GUI import Window, Frame, Label, run
+from VXGUI import Window, Frame, Label, run
 from testing import say
 
 def test():

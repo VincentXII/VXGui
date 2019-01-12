@@ -1,13 +1,13 @@
 #
-#   Python GUI - Text fields - Gtk
+#   Python VXGUI - Text fields - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI.Properties import overridable_property
-from GUI import application
-from GUI.StdFonts import application_font
-from GUI.GTextFields import TextField as GTextField
+from VXGUI import export
+from VXGUI.Properties import overridable_property
+from VXGUI import application
+from VXGUI.StdFonts import application_font
+from VXGUI.GTextFields import TextField as GTextField
 
 gtk_margins = (2, 2, 0, 0)
 

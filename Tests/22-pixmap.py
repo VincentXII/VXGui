@@ -1,6 +1,6 @@
-from GUI import Window, View, Pixmap, application
-from GUI.Geometry import offset_rect, rect_sized
-from GUI.StdColors import red, yellow, green, blue, cyan, black
+from VXGUI import Window, View, Pixmap, application
+from VXGUI.Geometry import offset_rect, rect_sized
+from VXGUI.StdColors import red, yellow, green, blue, cyan, black
 from testing import say
 
 class PixmapTestView(View):

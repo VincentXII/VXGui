@@ -1,4 +1,4 @@
-from GUI import Window, ListButton, application
+from VXGUI import Window, ListButton, application
 from testing import say
 
 def report():

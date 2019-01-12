@@ -1,7 +1,7 @@
-from GUI import Window, View, application, rgb, Pixmap
-from GUI.Geometry import offset_rect
-from GUI.StdColors import black, white
-from GUI.GL import GLPixmap
+from VXGUI import Window, View, application, rgb, Pixmap
+from VXGUI.Geometry import offset_rect
+from VXGUI.StdColors import black, white
+from VXGUI.GL import GLPixmap
 from OpenGL.GL import glClearColor, glClear, glBegin, glColor3f, glVertex2i, glEnd, \
     GL_COLOR_BUFFER_BIT, GL_TRIANGLES
 

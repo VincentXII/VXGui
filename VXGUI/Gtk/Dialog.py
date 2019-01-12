@@ -1,9 +1,9 @@
 #
-#   Python GUI - Dialogs - Gtk
+#   Python VXGUI - Dialogs - Gtk
 #
 
-from GUI import export
-from GUI.GDialogs import Dialog as GDialog
+from VXGUI import export
+from VXGUI.GDialogs import Dialog as GDialog
 
 class Dialog(GDialog):
 

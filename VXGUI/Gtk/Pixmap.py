@@ -1,11 +1,11 @@
 #
-#   Python GUI - Pixmap - Gtk
+#   Python VXGUI - Pixmap - Gtk
 #
 
 from gtk import gdk
-from GUI import export
-from GUI.GtkPixmaps import GtkPixmap
-from GUI.GPixmaps import Pixmap as GPixmap
+from VXGUI import export
+from VXGUI.GtkPixmaps import GtkPixmap
+from VXGUI.GPixmaps import Pixmap as GPixmap
 
 class Pixmap(GtkPixmap, GPixmap):
 

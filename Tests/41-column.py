@@ -1,4 +1,4 @@
-from GUI import Window, Button, CheckBox, Label, TextField, Column, application
+from VXGUI import Window, Button, CheckBox, Label, TextField, Column, application
 from testing import say
 
 def make_col(align):

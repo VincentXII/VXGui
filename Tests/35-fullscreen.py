@@ -1,8 +1,8 @@
 #
-#   Python GUI - Test fullscreen windows
+#   Python VXGUI - Test fullscreen windows
 #
 
-from GUI import Window, Label, run
+from VXGUI import Window, Label, run
 from testing import say
 
 class TestWindow(Window):

@@ -1,15 +1,15 @@
 #
-#		Python GUI - DrawableViews - Gtk
+#		Python VXGUI - DrawableViews - Gtk
 #
 
 import os, traceback
 from math import floor, ceil
 import gtk
 from gtk import gdk
-from GUI import export
-from GUI import Canvas, Event, rgb
-from GUI.StdColors import grey
-from GUI.GDrawableContainers import DrawableContainer as GDrawableContainer
+from VXGUI import export
+from VXGUI import Canvas, Event, rgb
+from VXGUI.StdColors import grey
+from VXGUI.GDrawableContainers import DrawableContainer as GDrawableContainer
 
 class DrawableContainer(GDrawableContainer):
 

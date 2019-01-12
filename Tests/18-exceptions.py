@@ -1,5 +1,5 @@
-from GUI import Window, Button, application
-from GUI.Exceptions import ApplicationError
+from VXGUI import Window, Button, application
+from VXGUI.Exceptions import ApplicationError
 from testing import say
 
 class ShrubberyError(Exception):

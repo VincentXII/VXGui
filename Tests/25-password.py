@@ -1,4 +1,4 @@
-from GUI import Window, TextField, Button, application
+from VXGUI import Window, TextField, Button, application
 from testing import say
 
 def show(tf):

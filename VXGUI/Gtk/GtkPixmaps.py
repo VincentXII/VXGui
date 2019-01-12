@@ -1,11 +1,11 @@
 #
-#   Python GUI - Gtk - Common pixmap code
+#   Python VXGUI - Gtk - Common pixmap code
 #
 
 from gtk import gdk
-from GUI.StdColors import clear
-from GUI.GtkImageScaling import gtk_scale_pixbuf
-from GUI import Canvas
+from VXGUI.StdColors import clear
+from VXGUI.GtkImageScaling import gtk_scale_pixbuf
+from VXGUI import Canvas
 
 class GtkPixmap:
 

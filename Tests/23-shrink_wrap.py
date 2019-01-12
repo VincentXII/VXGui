@@ -1,4 +1,4 @@
-from GUI import Window, Button, CheckBox, TextField, application
+from VXGUI import Window, Button, CheckBox, TextField, application
 from testing import say
 
 def test():

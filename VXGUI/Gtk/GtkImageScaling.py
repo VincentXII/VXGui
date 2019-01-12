@@ -1,5 +1,5 @@
 #
-#   Python GUI - Image scaling utilities - Gtk
+#   Python VXGUI - Image scaling utilities - Gtk
 #
 
 from gtk import gdk

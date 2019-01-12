@@ -3,8 +3,8 @@
 # Conversion to PyGUI by Greg Ewing
 
 import math
-from GUI import Window, Task, application
-from GUI.GL import GLView
+from VXGUI import Window, Task, application
+from VXGUI.GL import GLView
 from OpenGL import GL
 
 frame_interval = 0.01

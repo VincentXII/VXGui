@@ -1,7 +1,7 @@
 #
 #   PyGUI - Mouse event test
 
-from GUI import Window, application
+from VXGUI import Window, application
 from TestViews import TestDrawing
 from TestScrollableViews import TestScrollableDrawing
 from TestInput import TestMouseEvents

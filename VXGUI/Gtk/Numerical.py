@@ -1,11 +1,11 @@
 #--------------------------------------------------------------
 #
-#   PyGUI - NumPy interface - Gtk
+#   VXGUI - NumPy interface - Gtk
 #
 #--------------------------------------------------------------
 
 from gtk import gdk
-from GUI import Image
+from VXGUI import Image
 
 def image_from_ndarray(array, format, size = None):
     """

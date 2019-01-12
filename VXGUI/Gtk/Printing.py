@@ -1,13 +1,13 @@
 #------------------------------------------------------------------------------
 #
-#   PyGUI - Printing - Gtk
+#   VXGUI - Printing - Gtk
 #
 #------------------------------------------------------------------------------
 
 import gtk, gtkunixprint
 from gtk import UNIT_POINTS
-from GUI import Canvas
-from GUI.GPrinting import PageSetup as GPageSetup, Printable as GPrintable, \
+from VXGUI import Canvas
+from VXGUI.GPrinting import PageSetup as GPageSetup, Printable as GPrintable, \
     Paginator
 
 gtk_paper_names = [

@@ -2,9 +2,9 @@
 #		User-defined scrollable views used by test programs
 #
 
-from GUI import ScrollableView, Color, Font
-from GUI.StdFonts import system_font, application_font
-from GUI.StdColors import black, red, green, blue, yellow, white
+from VXGUI import ScrollableView, Color, Font
+from VXGUI.StdFonts import system_font, application_font
+from VXGUI.StdColors import black, red, green, blue, yellow, white
 from TestInput import TestKeyEvents, TestTrackMouse
 from testing import say
 

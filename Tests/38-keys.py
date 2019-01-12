@@ -1,8 +1,8 @@
 #
-#   Python GUI - Test keys
+#   Python VXGUI - Test keys
 #
 
-from GUI import Window, run
+from VXGUI import Window, run
 from testing import say
 
 class TestWindow(Window):

@@ -1,11 +1,11 @@
 #
-#   Python GUI - Labels - Gtk
+#   Python VXGUI - Labels - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI.StdFonts import system_font
-from GUI.GLabels import Label as GLabel
+from VXGUI import export
+from VXGUI.StdFonts import system_font
+from VXGUI.GLabels import Label as GLabel
 
 class Label(GLabel):
 

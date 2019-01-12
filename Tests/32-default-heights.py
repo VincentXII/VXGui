@@ -3,7 +3,7 @@
 #
 
 import sys
-from GUI import Window, Label, TextField, Button, CheckBox, RadioButton, Slider, \
+from VXGUI import Window, Label, TextField, Button, CheckBox, RadioButton, Slider, \
     StdFonts, Font, run
 from testing import say
 

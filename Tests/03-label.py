@@ -1,6 +1,6 @@
-from GUI import Window, Label, Font, application
-from GUI.StdColors import red
-from GUI.StdFonts import system_font
+from VXGUI import Window, Label, Font, application
+from VXGUI.StdColors import red
+from VXGUI.StdFonts import system_font
 from testing import say
 
 num_rows = 6

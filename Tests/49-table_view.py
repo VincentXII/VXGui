@@ -1,4 +1,4 @@
-from GUI import Window, TableView, TextColumn, Model, TextField, run
+from VXGUI import Window, TableView, TextColumn, Model, TextField, run
 
 class Row(object):
 

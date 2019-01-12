@@ -1,8 +1,8 @@
 #
-#   Python GUI - Test windows
+#   Python VXGUI - Test windows
 #
 
-from GUI import Window, run
+from VXGUI import Window, run
 from testing import say
 
 class TestWindow(Window):

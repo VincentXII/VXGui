@@ -1,12 +1,12 @@
 #
-#   Python GUI - File selection dialogs - Gtk
+#   Python VXGUI - File selection dialogs - Gtk
 #
 
 import os
 import gtk
-from GUI.Files import FileRef
-from GUI.Alerts import confirm
-from GUI import application
+from VXGUI.Files import FileRef
+from VXGUI.Alerts import confirm
+from VXGUI import application
 
 #------------------------------------------------------------------
 

@@ -1,4 +1,4 @@
-from GUI import Window, GridView, run
+from VXGUI import Window, GridView, run
 from testing import say
 
 class TestGridView(GridView):

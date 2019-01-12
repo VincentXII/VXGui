@@ -1,10 +1,10 @@
 #
-#   PyGUI - Image Base - Gtk
+#   VXGUI - Image Base - Gtk
 #
 
 from __future__ import division
-from GUI import export
-from GUI.GImageBases import ImageBase as GImageBase
+from VXGUI import export
+from VXGUI.GImageBases import ImageBase as GImageBase
 
 class ImageBase(GImageBase):
 

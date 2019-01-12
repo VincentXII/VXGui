@@ -1,10 +1,10 @@
 #
-#   Python GUI - Alert base class - Gtk
+#   Python VXGUI - Alert base class - Gtk
 #
 
 import gtk
-from GUI import export
-from GUI.GBaseAlerts import BaseAlert as GBaseAlert
+from VXGUI import export
+from VXGUI.GBaseAlerts import BaseAlert as GBaseAlert
 
 _kind_to_gtk_stock_id = {
     'stop':    gtk.STOCK_DIALOG_ERROR,

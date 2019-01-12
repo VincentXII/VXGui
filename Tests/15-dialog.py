@@ -1,5 +1,5 @@
-from GUI import Dialog, Label, Button, application
-from GUI.StdButtons import DefaultButton, CancelButton
+from VXGUI import Dialog, Label, Button, application
+from VXGUI.StdButtons import DefaultButton, CancelButton
 from testing import say
 
 class TestDialog(Dialog):

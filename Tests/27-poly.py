@@ -1,5 +1,5 @@
-from GUI import Window, View, application
-from GUI.StdColors import green, black, white
+from VXGUI import Window, View, application
+from VXGUI.StdColors import green, black, white
 from testing import say
 
 class PolyView(View):

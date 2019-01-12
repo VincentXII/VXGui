@@ -1,8 +1,8 @@
 #
-#   PyGUI - OpenGL Textures - Gtk
+#   VXGUI - OpenGL Textures - Gtk
 #
 
-from GUI.GGLTextures import Texture as GTexture
+from VXGUI.GGLTextures import Texture as GTexture
 
 class Texture(GTexture):
 

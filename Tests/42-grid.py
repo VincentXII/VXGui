@@ -1,4 +1,4 @@
-from GUI import Window, CheckBox, Label, TextField, Grid, application
+from VXGUI import Window, CheckBox, Label, TextField, Grid, application
 from testing import say
 
 items = [

@@ -1,11 +1,11 @@
 #
-#   Python GUI - Buttons - Gtk version
+#   Python VXGUI - Buttons - Gtk version
 #
 
 import gtk
-from GUI import export
-from GUI.StdFonts import system_font
-from GUI.GButtons import Button as GButton
+from VXGUI import export
+from VXGUI.StdFonts import system_font
+from VXGUI.GButtons import Button as GButton
 
 _gtk_extra_hpad = 5   # Amount to add to default width at each end
 _gtk_icon_spacing = 2  # Space to leave between icon and label

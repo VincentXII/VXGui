@@ -1,6 +1,6 @@
-from GUI import Window, ModalDialog, Label, Button, \
+from VXGUI import Window, ModalDialog, Label, Button, \
     TextField, application
-from GUI.StdButtons import DefaultButton, CancelButton
+from VXGUI.StdButtons import DefaultButton, CancelButton
 from testing import say
 
 def modal_dialog():

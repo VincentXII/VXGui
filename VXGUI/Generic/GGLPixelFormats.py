@@ -1,5 +1,5 @@
 #
-#   PyGUI - OpenGL Pixel Formats - Generic
+#   VXGUI - OpenGL Pixel Formats - Generic
 #
 
 from VXGUI.Properties import Properties, overridable_property

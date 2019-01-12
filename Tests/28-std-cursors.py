@@ -2,9 +2,9 @@
 #   Standard cursors test
 #
 
-from GUI import Window, View, \
+from VXGUI import Window, View, \
     RadioGroup, RadioButton, application #, StdCursors
-from GUI.StdColors import black, white
+from VXGUI.StdColors import black, white
 from testing import say
 
 class TestArea(View):
@@ -36,7 +36,7 @@ def test():
     application().run()
 
 app = application()
-from GUI import StdCursors
+from VXGUI import StdCursors
 cursor_names = []
 for name in StdCursors.__all__:
         cursor_names.append(name)
