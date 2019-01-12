@@ -1,6 +1,6 @@
 #--------------------------------------------------------------------
 #
-#   PyGUI - Top level package initialisation
+#   VXGUI - Top level package initialisation
 #
 #--------------------------------------------------------------------
 
@@ -35,14 +35,14 @@ def export(obj):
     sys.modules[qname] = obj
 
 #
-#  The environment variable PYGUI_IMPLEMENTATION may be set to the
+#  The environment variable VXGUI_IMPLEMENTATION may be set to the
 #  name of one of the platform-dependent directories to force that
 #  implementation to be used. This can be useful if more than one
-#  PyGUI implementation is usable on your setup.
+#  VXGUI implementation is usable on your setup.
 #
 
 from os import environ as _env
-_platdir = _env.get("PYGUI_IMPLEMENTATION")
+_platdir = _env.get("VXGUI_IMPLEMENTATION")
 if not _platdir:
     for _testmod, _platdir in _versions:
         try:
@@ -51,10 +51,10 @@ if not _platdir:
         except ImportError:
             continue
     else:
-        raise ImportError("Unable to find an implementation of PyGUI for this installation")
+        raise ImportError("Unable to find an implementation of VXGUI for this installation")
 
-if _env.get("PYGUI_IMPLEMENTATION_DEBUG"):
-    sys.stderr.write("PyGUI: Using implementation: %s\n" % _platdir)
+if _env.get("VXGUI_IMPLEMENTATION_DEBUG"):
+    sys.stderr.write("VXGUI: Using implementation: %s\n" % _platdir)
 
 #
 #  Append the chosen platform-dependent directory to the search
@@ -70,14 +70,14 @@ __path__.append(_join(_here, "Generic"))
 #  Import global functions
 #
 
-from GUI.Globals import application, run
-from GUI.Colors import rgb
+from VXGUI.Globals import application, run
+from VXGUI.Colors import rgb
 
 #
 #  Set up initial resource search path
 #
 
-from GUI import Resources
+from VXGUI import Resources
 Resources._add_file_path(__file__)
 _main_dir = sys.path[0]
 Resources._add_directory_path(_main_dir)
@@ -91,4 +91,4 @@ Resources._add_directory_path(_main_dir, 1)
 #   Perform global initialisation
 #
 
-import GUI.Application
+import VXGUI.Application

@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------
 #
-#   PyGUI - Distutils Setup Script
+#   VXGUI - Distutils Setup Script
 #
 #-------------------------------------------------------------------------
 
@@ -17,11 +17,9 @@ from distutils_extensions import pygui_build_py
 
 CLASSIFIERS = """\
 Development Status :: 3 - Alpha
-Environment :: MacOS X :: Cocoa
 Environment :: Win32 (MS Windows)
 Environment :: X11 Applications :: GTK
 Intended Audience :: Developers
-Operating System :: MacOS :: MacOS X
 Operating System :: POSIX :: Linux
 Operating System :: Microsoft :: Windows
 Programming Language :: Python
@@ -56,7 +54,7 @@ cmd_class = {'build_py': pygui_build_py}
 ext_modules = []
 
 version = '<version not found>'
-version_file = os.path.join("GUI", "Version.py") 
+version_file = os.path.join("VXGUI", "Version.py") 
 # get accurate version sring by running Version.py
 exec(compile(open(version_file,'r').read(), version_file, 'exec'))
 
@@ -65,9 +63,7 @@ exec(compile(open(version_file,'r').read(), version_file, 'exec'))
 #
 
 plat = sys.platform
-if plat.startswith("darwin"):
-    platdir = "Cocoa"
-elif plat.startswith("linux"):
+if plat.startswith("linux"):
     platdir = "Gtk"
 elif plat.startswith("win"):
     platdir = "Win32"
@@ -109,21 +105,21 @@ sys.stdout.write("Installing backend %s\n" % platdir)
 
 setup(
     cmdclass = cmd_class,
-    name = "PyGUI",
+    name = "VXGUI",
     version = version,
     description = "Pythonic Cross-Platform GUI Framework",
-    author = "Gregory Ewing",
-    author_email = "greg.ewing@canterbury.ac.nz",
-    url = "http://www.cosc.canterbury.ac.nz/greg.ewing/python_gui",
+    author = "Vincent Larkin",
+    author_email = "vincent@vincentxii.us",
+    url = "https://vincentxii.us",
     #download_url=DOWNLOAD_URL,
-    long_description = open('README.txt').read(),
+    long_description = open('README.md').read(),
     platforms = ["Linux", "MacOS X", "Windows"],
-    packages = ["GUI"],
-    package_subdirs = {"GUI": ["Generic", platdir]},
-    package_data = {"GUI": [os.path.join("Resources", "*", "*")]},
+    packages = ["VXGUI"],
+    package_subdirs = {"VXGUI": ["Generic", platdir]},
+    package_data = {"VXGUI": [os.path.join("Resources", "*", "*")]},
     ext_modules = ext_modules,
     #maintainer=MAINTAINER,
     #maintainer_email=MAINTAINER_EMAIL,
     keywords = 'GUI Cross-Platform',
-    license = 'This is free software. You are welcome to use it however you want.'
+    license = 'Vincent General License'
 )
