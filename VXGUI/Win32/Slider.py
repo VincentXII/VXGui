@@ -6,9 +6,9 @@
 
 from __future__ import division
 import win32con as wc, win32ui as ui
-from GUI import export
-from GUI.WinUtils import win_none
-from GUI.GSliders import Slider as GSlider
+from VXGUI import export
+from VXGUI.WinUtils import win_none
+from VXGUI.GSliders import Slider as GSlider
 
 win_base_flags = wc.WS_CHILD | wc.WS_VISIBLE
 

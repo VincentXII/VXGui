@@ -6,8 +6,8 @@
 
 import win32con as wc, win32ui as ui, win32gui as gui, win32api as api
 from win32api import HIWORD, LOWORD
-from GUI import application
-from GUI.Exceptions import Cancel, InternalError
+from VXGUI import application
+from VXGUI.Exceptions import Cancel, InternalError
 
 win_dlog_class = "#32770"
 win_color3dhilight = api.GetSysColor(wc.COLOR_3DHILIGHT)

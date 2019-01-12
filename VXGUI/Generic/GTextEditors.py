@@ -1,11 +1,11 @@
 #
-#   Python GUI - Text Editor - Generic
+#   Python VXGUI - Text Editor - Generic
 #
 
-from GUI.Properties import overridable_property
-from GUI import Component
-from GUI import EditCmdHandler
-from GUI.Printing import Printable
+from VXGUI.Properties import overridable_property
+from VXGUI import Component
+from VXGUI import EditCmdHandler
+from VXGUI.Printing import Printable
 
 class TextEditor(Component, EditCmdHandler, Printable):
     """A component for editing substantial amounts of text. The text is

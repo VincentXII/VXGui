@@ -5,11 +5,11 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32gui as gui, win32ui as ui, win32api as api
-from GUI import export
+from VXGUI import export
 from WinUtils import win_none
-import GUI.GDI as gdi
-import GUI.GDIPlus as gdip
-from GUI.GFonts import Font as GFont
+import VXGUI.GDI as gdi
+import VXGUI.GDIPlus as gdip
+from VXGUI.GFonts import Font as GFont
 
 #win_family_map = {
 #	"Decorative": wc.FF_DECORATIVE | wc.DEFAULT_PITCH,

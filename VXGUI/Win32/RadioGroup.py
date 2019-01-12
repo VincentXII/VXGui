@@ -4,8 +4,8 @@
 #
 #--------------------------------------------------------------------
 
-from GUI import export
-from GUI.GRadioGroups import RadioGroup as GRadioGroup
+from VXGUI import export
+from VXGUI.GRadioGroups import RadioGroup as GRadioGroup
 
 class RadioGroup(GRadioGroup):
 

@@ -1,10 +1,10 @@
 #
-#   Python GUI - Alert base class - Generic
+#   Python VXGUI - Alert base class - Generic
 #
 
 import textwrap
-from GUI import ModalDialog
-from GUI import Label
+from VXGUI import ModalDialog
+from VXGUI import Label
 
 class BaseAlert(ModalDialog):
 

@@ -2,7 +2,7 @@
 #   PyGUI - Tasks - Generic
 #
 
-from GUI.Properties import Properties, overridable_property
+from VXGUI.Properties import Properties, overridable_property
 
 class Task(Properties):
     """A Task represents an action to be performed after a specified
@@ -30,8 +30,8 @@ class Task(Properties):
     
     def start(self):
         """Schedule the task if it is not already scheduled."""
-        raise NotImplementedError("GUI.Task.start")
+        raise NotImplementedError("VXGUI.Task.start")
     
     def stop(self):
         """Unschedules the task if it is currently scheduled."""
-        raise NotImplementedError("GUI.Task.stop")
+        raise NotImplementedError("VXGUI.Task.stop")

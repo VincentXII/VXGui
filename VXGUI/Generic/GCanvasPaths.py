@@ -1,5 +1,5 @@
 #
-#   Python GUI - Canvas Paths - Generic
+#   Python VXGUI - Canvas Paths - Generic
 #
 
 class CanvasPaths:

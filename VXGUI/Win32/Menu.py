@@ -5,9 +5,9 @@
 #--------------------------------------------------------------------
 
 import win32ui as ui, win32con as wc
-from GUI import export
-from GUI.WinMenus import win_command_to_id
-from GUI.GMenus import Menu as GMenu
+from VXGUI import export
+from VXGUI.WinMenus import win_command_to_id
+from VXGUI.GMenus import Menu as GMenu
 
 class Menu(GMenu):
 

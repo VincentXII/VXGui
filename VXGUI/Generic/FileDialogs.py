@@ -1,8 +1,8 @@
 #
-#   Python GUI - File selection dialogs - Generic
+#   Python VXGUI - File selection dialogs - Generic
 #
 
-from GUI.BaseFileDialogs import _request_old, _request_new
+from VXGUI.BaseFileDialogs import _request_old, _request_new
 
 
 def request_old_file(prompt = "Open File", default_dir = None, file_types = None):

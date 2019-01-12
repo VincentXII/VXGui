@@ -1,8 +1,8 @@
 #
-#   Python GUI - Standard Colors - Generic
+#   Python VXGUI - Standard Colors - Generic
 #
 
-from GUI.Colors import rgb, selection_forecolor, selection_backcolor
+from VXGUI.Colors import rgb, selection_forecolor, selection_backcolor
 
 black = rgb(0, 0, 0)
 dark_grey = rgb(0.25, 0.25, 0.25)

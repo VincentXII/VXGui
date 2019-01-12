@@ -5,7 +5,7 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32api as api, win32gui as gui, win32ui as ui
-from GUI import Event
+from VXGUI import Event
 
 win_message_map = {
     wc.WM_KEYDOWN:        ('key_down',    None),

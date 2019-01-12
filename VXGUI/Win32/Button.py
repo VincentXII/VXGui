@@ -6,9 +6,9 @@
 
 from time import sleep
 import win32con as wc, win32ui as ui, win32gui as gui
-from GUI import export
-from GUI.ButtonBases import ButtonBase
-from GUI.GButtons import Button as GButton
+from VXGUI import export
+from VXGUI.ButtonBases import ButtonBase
+from VXGUI.GButtons import Button as GButton
 
 win_hpad = 40
 

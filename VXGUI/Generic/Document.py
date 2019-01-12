@@ -1,18 +1,18 @@
 #
-#		Python GUI - Documents - Generic
+#		Python VXGUI - Documents - Generic
 #
 
 import os, tempfile
-from GUI import export
-from GUI.Alerts import confirm, confirm_or_cancel
-from GUI.Properties import overridable_property
-from GUI import Model
-from GUI import MessageHandler
-from GUI.Files import FileRef, DirRef
-from GUI.FileDialogs import request_new_file
-from GUI import application
-from GUI.Exceptions import Cancel, UnimplementedMethod, ApplicationError
-from GUI.Printing import PageSetup, present_page_setup_dialog
+from VXGUI import export
+from VXGUI.Alerts import confirm, confirm_or_cancel
+from VXGUI.Properties import overridable_property
+from VXGUI import Model
+from VXGUI import MessageHandler
+from VXGUI.Files import FileRef, DirRef
+from VXGUI.FileDialogs import request_new_file
+from VXGUI import application
+from VXGUI.Exceptions import Cancel, UnimplementedMethod, ApplicationError
+from VXGUI.Printing import PageSetup, present_page_setup_dialog
 
 _next_doc_number = 1	# Counter for generating default titles
 

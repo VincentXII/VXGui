@@ -5,7 +5,7 @@
 #------------------------------------------------------------------------------
 
 import re
-from GUI import View
+from VXGUI import View
 
 class TextEditorPrintView(View):
 

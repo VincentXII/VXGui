@@ -5,8 +5,8 @@
 #--------------------------------------------------------------------
 
 import GDIPlus as gdi
-from GUI import export
-from GUI.GImages import Image as GImage
+from VXGUI import export
+from VXGUI.GImages import Image as GImage
 
 class Image(GImage):
 

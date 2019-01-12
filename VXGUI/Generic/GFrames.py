@@ -1,8 +1,8 @@
 #
-#		Python GUI - Frames - Generic
+#		Python VXGUI - Frames - Generic
 #
 
-from GUI import Container
+from VXGUI import Container
 
 class Frame(Container):
     """A Frame is a general-purpose instantiable subclass of Container."""

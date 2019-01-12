@@ -5,16 +5,16 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui, win32gui as gui, win32api as api
-from GUI import export
-from GUI import WinUtils 
-from GUI.Geometry import rect_size, sub_pt
-from GUI import application
-from GUI.Exceptions import Cancel
-from GUI.WinEvents import win_message_to_event
-from GUI.WinMenus import MenuBar, win_id_to_command
-from GUI.GMenus import search_list_for_key
-from GUI import Component
-from GUI.GWindows import Window as GWindow
+from VXGUI import export
+from VXGUI import WinUtils 
+from VXGUI.Geometry import rect_size, sub_pt
+from VXGUI import application
+from VXGUI.Exceptions import Cancel
+from VXGUI.WinEvents import win_message_to_event
+from VXGUI.WinMenus import MenuBar, win_id_to_command
+from VXGUI.GMenus import search_list_for_key
+from VXGUI import Component
+from VXGUI.GWindows import Window as GWindow
 
 #--------------------------------------------------------------------
 
@@ -337,7 +337,7 @@ class Window(GWindow):
             #print "Window.modal_event_loop: enabling", window.title ###
             window._win.EnableWindow(True)
         if status <> 0: ###
-            from GUI.Exceptions import InternalError ###
+            from VXGUI.Exceptions import InternalError ###
             raise InternalError("RunModalLoop returned %s" % status) ###
     
     def exit_modal_event_loop(self):

@@ -1,5 +1,5 @@
 #
-#   Python GUI - Point and rectangle utilities - Generic
+#   Python VXGUI - Point and rectangle utilities - Generic
 #
 
 def add_pt((x1, y1), (x2, y2)):

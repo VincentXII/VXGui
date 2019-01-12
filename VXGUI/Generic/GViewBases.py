@@ -1,8 +1,8 @@
 #
-#		Python GUI - View Base - Generic
+#		Python VXGUI - View Base - Generic
 #
 
-from GUI.Properties import overridable_property
+from VXGUI.Properties import overridable_property
 
 class ViewBase(object):
     """ViewBase is an abstract base class for user-defined views.

@@ -5,11 +5,11 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32gui as gui, win32api as api
-from GUI import export
-from GUI import application
-from GUI.WinUtils import win_bg_color
-from GUI import View
-from GUI.GBaseAlerts import BaseAlert as GBaseAlert
+from VXGUI import export
+from VXGUI import application
+from VXGUI.WinUtils import win_bg_color
+from VXGUI import View
+from VXGUI.GBaseAlerts import BaseAlert as GBaseAlert
 
 win_icon_ids = {
     'stop':    wc.IDI_HAND,

@@ -5,9 +5,9 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui
-from GUI import export
-from GUI.WinUtils import win_none
-from GUI.GFrames import Frame as GFrame
+from VXGUI import export
+from VXGUI.WinUtils import win_none
+from VXGUI.GFrames import Frame as GFrame
 
 win_flags = wc.WS_CHILD | wc.WS_VISIBLE
 

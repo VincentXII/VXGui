@@ -4,7 +4,7 @@
 #
 #--------------------------------------------------------------------
 
-from GUI.GStdMenus import build_menus, \
+from VXGUI.GStdMenus import build_menus, \
     fundamental_cmds, help_cmds, pref_cmds, file_cmds, print_cmds, edit_cmds
 
 _file_menu_items = [

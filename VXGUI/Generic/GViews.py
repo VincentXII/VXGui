@@ -1,10 +1,10 @@
 #
-#		Python GUI - Views - Generic
+#		Python VXGUI - Views - Generic
 #
 
-from GUI.Properties import overridable_property
-from GUI.Geometry import add_pt, sub_pt, rect_sized
-from GUI import DrawableContainer
+from VXGUI.Properties import overridable_property
+from VXGUI.Geometry import add_pt, sub_pt, rect_sized
+from VXGUI import DrawableContainer
 
 class View(DrawableContainer):
     """A View is a 2D drawing area having its own coordinate

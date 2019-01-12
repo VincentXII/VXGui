@@ -6,9 +6,9 @@
 
 from weakref import WeakValueDictionary
 import win32con as wc, win32ui as ui
-from GUI import export, application
-from GUI.WinUtils import win_none
-from GUI.GTasks import Task as GTask
+from VXGUI import export, application
+from VXGUI.WinUtils import win_none
+from VXGUI.GTasks import Task as GTask
 
 #--------------------------------------------------------------------
 

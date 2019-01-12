@@ -1,9 +1,9 @@
 #
-#   Python GUI - Controls - Generic
+#   Python VXGUI - Controls - Generic
 #
 
-from GUI.Properties import overridable_property
-from GUI import Component
+from VXGUI.Properties import overridable_property
+from VXGUI import Component
 
 class Control(Component):
     """Abstract base class for components such as buttons, check

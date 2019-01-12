@@ -1,11 +1,11 @@
 #
-#		Python GUI - Windows - Generic
+#		Python VXGUI - Windows - Generic
 #
 
 import Exceptions
-from GUI.Properties import overridable_property
-from GUI import Container
-from GUI import application
+from VXGUI.Properties import overridable_property
+from VXGUI import Container
+from VXGUI import application
 
 class Window(Container):
     """Top-level Container."""

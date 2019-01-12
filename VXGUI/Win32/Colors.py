@@ -5,7 +5,7 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32api as api
-from GUI import Color
+from VXGUI import Color
 
 def rgb(red, green, blue, alpha = 1.0):
     color = Color()

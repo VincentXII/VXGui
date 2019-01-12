@@ -5,8 +5,8 @@
 from weakref import WeakKeyDictionary
 from OpenGL.GL import glGenLists, glNewList, glEndList, glCallList, \
     glDeleteLists, GL_COMPILE
-from GUI.Properties import Properties, overridable_property
-from GUI.GGLContexts import current_share_group
+from VXGUI.Properties import Properties, overridable_property
+from VXGUI.GGLContexts import current_share_group
 
 #----------------------------------------------------------------------
 

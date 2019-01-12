@@ -7,8 +7,8 @@
 from __future__ import division
 from math import ceil
 import cPickle as pickle
-from GUI.Properties import overridable_property
-from GUI import application
+from VXGUI.Properties import overridable_property
+from VXGUI import application
 
 class PageSetup(object):
     """Holder of information specified by the "Page Setup" command."""

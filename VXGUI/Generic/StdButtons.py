@@ -1,8 +1,8 @@
 #
-#   Python GUI - Standard Buttons
+#   Python VXGUI - Standard Buttons
 #
 
-from GUI import Button
+from VXGUI import Button
 
 class DefaultButton(Button):
 

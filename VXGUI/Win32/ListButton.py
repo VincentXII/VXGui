@@ -5,10 +5,10 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui, win32gui as gui
-from GUI import export
-from GUI.WinUtils import win_none
-from GUI.WinComboBox import CreateComboBox
-from GUI.GListButtons import ListButton as GListButton
+from VXGUI import export
+from VXGUI.WinUtils import win_none
+from VXGUI.WinComboBox import CreateComboBox
+from VXGUI.GListButtons import ListButton as GListButton
 
 class ListButton(GListButton):
 

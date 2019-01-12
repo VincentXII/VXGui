@@ -1,8 +1,8 @@
 #
-#		Python GUI - Menu Lists - Generic
+#		Python VXGUI - Menu Lists - Generic
 #
 
-from GUI import export
+from VXGUI import export
 
 class MenuList(list):
     """A MenuList is a sequence of Menus with methods for finding

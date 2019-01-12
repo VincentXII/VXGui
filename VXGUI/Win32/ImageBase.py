@@ -4,8 +4,8 @@
 #
 #--------------------------------------------------------------------
 
-from GUI import export
-from GUI.GImageBases import ImageBase as GImageBase
+from VXGUI import export
+from VXGUI.GImageBases import ImageBase as GImageBase
 
 class ImageBase(GImageBase):
     #  _win_image   GdiPlus.Image

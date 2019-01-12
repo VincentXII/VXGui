@@ -4,7 +4,7 @@
 #
 #--------------------------------------------------------------------
 
-from GUI import export
-from GUI.GDialogs import Dialog
+from VXGUI import export
+from VXGUI.GDialogs import Dialog
 
 export(Dialog)

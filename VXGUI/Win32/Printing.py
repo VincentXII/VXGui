@@ -6,9 +6,9 @@
 
 import WinPageSetup as wps, WinPrint as wp
 import win32print as wp2
-from GUI.GPrinting import PageSetup as GPageSetup, Printable as GPrintable, \
+from VXGUI.GPrinting import PageSetup as GPageSetup, Printable as GPrintable, \
     Paginator
-from GUI import Canvas
+from VXGUI import Canvas
 
 #------------------------------------------------------------------------------
 

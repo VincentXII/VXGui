@@ -1,11 +1,11 @@
 #
-#   Python GUI - Dialogs - Generic
+#   Python VXGUI - Dialogs - Generic
 #
 
-from GUI import Globals
-from GUI.Properties import overridable_property
-from GUI.Actions import ActionBase, action_property
-from GUI import Window
+from VXGUI import Globals
+from VXGUI.Properties import overridable_property
+from VXGUI.Actions import ActionBase, action_property
+from VXGUI import Window
 
 class Dialog(Window, ActionBase):
 

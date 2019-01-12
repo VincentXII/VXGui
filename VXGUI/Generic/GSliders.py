@@ -1,10 +1,10 @@
 #
-#   Python GUI - Slider - Generic
+#   Python VXGUI - Slider - Generic
 #
 
-from GUI.Properties import overridable_property
-from GUI.Actions import Action
-from GUI import Control
+from VXGUI.Properties import overridable_property
+from VXGUI.Actions import Action
+from VXGUI import Control
 
 class Slider(Control, Action):
     """A control for entering a value by moving a knob along a scale.

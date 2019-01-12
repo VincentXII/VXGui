@@ -1,10 +1,10 @@
 #-------------------------------------------------------------------------------
 #
-#		Python GUI - Scrollable objects mixin - Generic
+#		Python VXGUI - Scrollable objects mixin - Generic
 #
 #-------------------------------------------------------------------------------
 
-from GUI.Properties import overridable_property
+from VXGUI.Properties import overridable_property
 
 class ScrollableBase(object):
     """Mixin for components that can be configured to have scroll bars."""

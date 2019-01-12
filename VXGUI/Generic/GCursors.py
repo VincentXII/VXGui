@@ -1,12 +1,12 @@
 #--------------------------------------------------------------------------
 #
-#		Python GUI - Cursors - Generic
+#		Python VXGUI - Cursors - Generic
 #
 #--------------------------------------------------------------------------
 
-from GUI.Properties import Properties
-from GUI.Resources import lookup_resource, find_resource, get_resource
-from GUI import Image
+from VXGUI.Properties import Properties
+from VXGUI.Resources import lookup_resource, find_resource, get_resource
+from VXGUI import Image
 
 def _hotspot_for_resource(resource_name):
     path = lookup_resource(resource_name, "hot")

@@ -2,7 +2,7 @@
 #   PyGUI - OpenGL Pixel Formats - Generic
 #
 
-from GUI.Properties import Properties, overridable_property
+from VXGUI.Properties import Properties, overridable_property
 
 class GLConfig(Properties):
     """Class holding the attributes of an OpenGL context configuration."""

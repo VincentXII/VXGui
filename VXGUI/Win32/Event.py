@@ -4,8 +4,8 @@
 #
 #--------------------------------------------------------------------
 
-from GUI import export
-from GUI.GEvents import Event as GEvent
+from VXGUI import export
+from VXGUI.GEvents import Event as GEvent
 
 class Event(GEvent):
 

@@ -2,7 +2,7 @@
 #   PyGUI - Edit command handling - Generic
 #
 
-from GUI import application
+from VXGUI import application
 
 class EditCmdHandler(object):
     #  Mixin for objects that implement the standard editing commands.

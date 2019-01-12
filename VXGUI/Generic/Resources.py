@@ -25,13 +25,13 @@ def _add_directory_path(dir, up = 0):
         dir = os.path.dirname(dir)
         up -= 1
     resdir = os.path.join(dir, "Resources")
-    #print "GUI.Resources: Checking for directory", repr(resdir) ###
+    #print "VXGUI.Resources: Checking for directory", repr(resdir) ###
     if os.path.isdir(resdir):
         resource_path.insert(0, resdir)
 
 def _add_file_path(file, up = 0):
     #  Add the directory containing the given file to the resource path.
-    #print "GUI.Resources: Adding path for file", repr(file) ###
+    #print "VXGUI.Resources: Adding path for file", repr(file) ###
     dir = os.path.dirname(os.path.abspath(file))
     _add_directory_path(dir, up)
 

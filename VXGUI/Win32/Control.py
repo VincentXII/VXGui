@@ -6,11 +6,11 @@
 
 from math import ceil
 import win32con as wc, win32ui as ui
-from GUI import export
-from GUI.StdColors import black
-from GUI.StdFonts import system_font
-from GUI.WinUtils import win_none, win_null_hbrush
-from GUI.GControls import Control as GControl
+from VXGUI import export
+from VXGUI.StdColors import black
+from VXGUI.StdFonts import system_font
+from VXGUI.WinUtils import win_none, win_null_hbrush
+from VXGUI.GControls import Control as GControl
 
 class Control(GControl):
 

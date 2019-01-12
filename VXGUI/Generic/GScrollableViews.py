@@ -1,13 +1,13 @@
 #-------------------------------------------------------------------------------
 #
-#		Python GUI - Scrollable Views - Generic
+#		Python VXGUI - Scrollable Views - Generic
 #
 #-------------------------------------------------------------------------------
 
-from GUI.Geometry import rect_sized, add_pt, sub_pt
-from GUI.Properties import overridable_property
-from GUI.Geometry import sect_rect
-from GUI import DrawableContainer, ScrollableBase
+from VXGUI.Geometry import rect_sized, add_pt, sub_pt
+from VXGUI.Properties import overridable_property
+from VXGUI.Geometry import sect_rect
+from VXGUI import DrawableContainer, ScrollableBase
 
 default_extent = (300, 300)
 default_line_scroll_amount = (16, 16)

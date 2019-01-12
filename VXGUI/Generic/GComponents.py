@@ -1,12 +1,12 @@
 #
-#		Python GUI - Components - Generic
+#		Python VXGUI - Components - Generic
 #
 
 import os
-from GUI.Properties import Properties, overridable_property
-from GUI import MessageHandler
-from GUI.Geometry import add_pt, sub_pt, rect_size, rect_sized, rect_topleft
-from GUI import application
+from VXGUI.Properties import Properties, overridable_property
+from VXGUI import MessageHandler
+from VXGUI.Geometry import add_pt, sub_pt, rect_size, rect_sized, rect_topleft
+from VXGUI import application
 
 _user_tab_stop = os.environ.get("PYGUI_KEYBOARD_NAVIGATION") or None
 #  Allow "False", "True", "0", "1"

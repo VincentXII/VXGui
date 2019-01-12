@@ -6,7 +6,7 @@
 
 from weakref import WeakKeyDictionary, WeakValueDictionary
 import win32con as wc, win32ui as ui
-from GUI import application
+from VXGUI import application
 
 win_command_map = {}
 win_command_list = []

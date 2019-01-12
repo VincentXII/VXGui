@@ -1,11 +1,11 @@
 #------------------------------------------------------------------------------
 #
-#		Python GUI - Actions - Generic
+#		Python VXGUI - Actions - Generic
 #
 #------------------------------------------------------------------------------
 
-from GUI.Properties import overridable_property
-from GUI.Exceptions import ApplicationError
+from VXGUI.Properties import overridable_property
+from VXGUI.Exceptions import ApplicationError
 
 #------------------------------------------------------------------------------
 

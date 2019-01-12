@@ -6,8 +6,8 @@ from weakref import WeakKeyDictionary
 from OpenGL.GL import glGenTextures, glBindTexture, glDeleteTextures, \
     glTexImage2D, GL_TEXTURE_2D, GL_RGBA
 from OpenGL.GLU import gluBuild2DMipmaps
-from GUI.GGLContexts import current_share_group
-from GUI.GLDisplayLists import call_when_not_compiling_display_list
+from VXGUI.GGLContexts import current_share_group
+from VXGUI.GLDisplayLists import call_when_not_compiling_display_list
 
 #----------------------------------------------------------------------
 
@@ -93,9 +93,9 @@ class Texture(object):
         width, height = image.size
         twidth = pow2up(width - b2) + b2
         theight = pow2up(height - b2) + b2
-        #print "GUI.GGLTextures.Texture.gl_tex_image_2d: before scaling: size =", (width, height) ###
+        #print "VXGUI.GGLTextures.Texture.gl_tex_image_2d: before scaling: size =", (width, height) ###
         if width <> twidth or height <> theight:
-            #print "GUI.GGLTextures.Texture.gl_tex_image_2d: scaling image to size", (twidth, theight) ###
+            #print "VXGUI.GGLTextures.Texture.gl_tex_image_2d: scaling image to size", (twidth, theight) ###
             from Pixmaps import Pixmap
             image2 = Pixmap(twidth, theight)
             def scale(canvas):
@@ -104,11 +104,11 @@ class Texture(object):
             image = image2
         format, type, data = self._gl_get_texture_data(image)
         if with_mipmaps:
-            #print "GUI.GGLTextures.Texture.gl_tex_image_2d: loading mipmaps" ###
+            #print "VXGUI.GGLTextures.Texture.gl_tex_image_2d: loading mipmaps" ###
             gluBuild2DMipmaps(target, internal_format, twidth, theight,
                 format, type, data)
         else:
-            #print "GUI.GGLTextures.Texture.gl_tex_image_2d: loading texture" ###
+            #print "VXGUI.GGLTextures.Texture.gl_tex_image_2d: loading texture" ###
             glTexImage2D(target, 0, internal_format, twidth, theight, border,
                 format, type, data)
 

@@ -1,10 +1,10 @@
 #
-#		Python GUI - Check boxes - Generic
+#		Python VXGUI - Check boxes - Generic
 #
 
-from GUI.Properties import overridable_property
-from GUI import Control
-from GUI.Actions import Action
+from VXGUI.Properties import overridable_property
+from VXGUI import Control
+from VXGUI.Actions import Action
 
 class CheckBox(Control, Action):
     """A CheckBox is a control used to represent a binary choice."""

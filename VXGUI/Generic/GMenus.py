@@ -1,11 +1,11 @@
 #----------------------------------------------------------------------
 #
-#		Python GUI - Menus - Generic
+#		Python VXGUI - Menus - Generic
 #
 #----------------------------------------------------------------------
 
-from GUI import Globals
-from GUI.Properties import Properties, overridable_property
+from VXGUI import Globals
+from VXGUI.Properties import Properties, overridable_property
 
 #----------------------------------------------------------------------
 

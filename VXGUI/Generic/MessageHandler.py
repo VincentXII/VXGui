@@ -1,8 +1,8 @@
 #
-#		Python GUI - Message handlers - Generic
+#		Python VXGUI - Message handlers - Generic
 #
 
-from GUI import export
+from VXGUI import export
 
 class MessageHandler(object):
     """A MessageHandler is an object which can form part of the

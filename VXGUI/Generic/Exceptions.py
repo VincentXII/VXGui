@@ -1,5 +1,5 @@
 #
-#		Exceptions.py - GUI exception classes
+#		Exceptions.py - VXGUI exception classes
 #
 
 class Cancel(Exception):

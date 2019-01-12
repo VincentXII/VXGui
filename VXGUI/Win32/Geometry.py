@@ -4,4 +4,4 @@
 #
 #--------------------------------------------------------------------
 
-from GUI.GGeometry import *
+from VXGUI.GGeometry import *

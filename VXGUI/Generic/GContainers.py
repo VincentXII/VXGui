@@ -1,15 +1,15 @@
 #
-#		Python GUI - Containers - Generic
+#		Python VXGUI - Containers - Generic
 #
 
 try:
     maketrans = str.maketrans
 except AttributeError:
     from string import maketrans
-from GUI.Properties import overridable_property
-from GUI.Exceptions import ArgumentError
-from GUI.Geometry import pt_in_rect
-from GUI import Component
+from VXGUI.Properties import overridable_property
+from VXGUI.Exceptions import ArgumentError
+from VXGUI.Geometry import pt_in_rect
+from VXGUI import Component
 
 anchor_to_sticky = maketrans("ltrb", "wnes")
 

@@ -15,7 +15,7 @@ def application():
     """Returns the global Application object. Creates a default one if needed."""
     global _application
     if not _application:
-        from GUI import Application
+        from VXGUI import Application
         _application = Application()
     return _application
 

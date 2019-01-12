@@ -4,7 +4,7 @@
 #
 #-----------------------------------------------------------------------
 
-from GUI import BaseAlertFunctions
+from VXGUI import BaseAlertFunctions
 
 def alert(kind, prompt, ok_label = "OK", **kwds):
     """Displays an alert box with one button. Does not return a value.

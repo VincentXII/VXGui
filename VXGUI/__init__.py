@@ -12,7 +12,6 @@ import sys, types
 
 _versions = [,
     ("nt", "Win32"),
-    ("gi.repository.Gtk", "GtkGI"),
     ("gtk", "Gtk"),
 ]
 

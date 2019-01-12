@@ -4,10 +4,10 @@
 #
 #--------------------------------------------------------------------------
 
-from GUI import export
-from GUI.Properties import overridable_property
-from GUI import StdColors, GridView
-from GUI.GUtils import splitdict
+from VXGUI import export
+from VXGUI.Properties import overridable_property
+from VXGUI import StdColors, GridView
+from VXGUI.GUtils import splitdict
 
 class PaletteView(GridView):
     """A GridView whose cells are identified by a linear index from

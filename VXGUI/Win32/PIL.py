@@ -5,8 +5,8 @@
 #--------------------------------------------------------------
 
 from __future__ import absolute_import
-from GUI import GDIPlus as gdi
-from GUI import Image
+from VXGUI import GDIPlus as gdi
+from VXGUI import Image
 from Image import merge
 
 def image_from_pil_image(pil_image):

@@ -5,8 +5,8 @@
 #--------------------------------------------------------------
 
 from numpy import ndarray, uint8
-from GUI import GDIPlus as gdi
-from GUI import Image
+from VXGUI import GDIPlus as gdi
+from VXGUI import Image
 
 def image_from_ndarray(array, format, size = None):
     """

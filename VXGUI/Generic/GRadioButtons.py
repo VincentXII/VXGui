@@ -1,9 +1,9 @@
 #
-#		Python GUI - Radio buttons - Generic
+#		Python VXGUI - Radio buttons - Generic
 #
 
-from GUI.Properties import overridable_property
-from GUI import Control
+from VXGUI.Properties import overridable_property
+from VXGUI import Control
 
 class RadioButton(Control):
     """RadioButtons are used in groups to represent a 1-of-N

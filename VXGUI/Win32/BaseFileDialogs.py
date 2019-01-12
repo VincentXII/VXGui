@@ -5,7 +5,7 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui, win32api as api
-from GUI.Files import FileRef, DirRef
+from VXGUI.Files import FileRef, DirRef
 
 win_ofn_flags = wc.OFN_FILEMUSTEXIST | wc.OFN_PATHMUSTEXIST | wc.OFN_HIDEREADONLY \
     | wc.OFN_NOCHANGEDIR | wc.OFN_OVERWRITEPROMPT

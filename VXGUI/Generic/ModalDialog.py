@@ -1,9 +1,9 @@
 #
-#   Python GUI - Modal Dialogs - Generic
+#   Python VXGUI - Modal Dialogs - Generic
 #
 
-from GUI import application, export
-from GUI import Dialog
+from VXGUI import application, export
+from VXGUI import Dialog
 
 class ModalDialog(Dialog):
 

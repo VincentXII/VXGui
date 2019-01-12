@@ -5,14 +5,14 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui, win32gui as gui
-from GUI import export
-from GUI.WinUtils import win_plain_class, win_none
-from GUI import Canvas
-from GUI.GScrollableViews import ScrollableView as GScrollableView, \
+from VXGUI import export
+from VXGUI.WinUtils import win_plain_class, win_none
+from VXGUI import Canvas
+from VXGUI.GScrollableViews import ScrollableView as GScrollableView, \
     default_extent, default_line_scroll_amount, default_scrolling
-from GUI.Geometry import add_pt, sub_pt, offset_rect, offset_rect_neg
-from GUI.GDrawableContainers import default_size
-from GUI.Geometry import offset_rect_neg
+from VXGUI.Geometry import add_pt, sub_pt, offset_rect, offset_rect_neg
+from VXGUI.GDrawableContainers import default_size
+from VXGUI.Geometry import offset_rect_neg
 
 win_style = wc.WS_CHILD | wc.WS_CLIPCHILDREN | wc.WS_CLIPSIBLINGS | \
     wc.WS_VISIBLE  ###| wc.WS_VSCROLL| wc.WS_HSCROLL

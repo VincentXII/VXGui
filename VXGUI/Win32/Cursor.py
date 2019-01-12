@@ -1,12 +1,12 @@
 #--------------------------------------------------------------------------
 #
-#		Python GUI - Cursors - Win32
+#		Python VXGUI - Cursors - Win32
 #
 #--------------------------------------------------------------------------
 
 import win32gui as gui
-from GUI import export
-from GUI.GCursors import Cursor as GCursor
+from VXGUI import export
+from VXGUI.GCursors import Cursor as GCursor
 
 class Cursor(GCursor):
 

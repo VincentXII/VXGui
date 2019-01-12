@@ -4,9 +4,9 @@
 #
 #--------------------------------------------------------------
 
-from GUI.Properties import overridable_property
-from GUI.Actions import Action
-from GUI import Control, application
+from VXGUI.Properties import overridable_property
+from VXGUI.Actions import Action
+from VXGUI import Control, application
 
 class ListButton(Control, Action):
     """A button that displays a value and provides a pop-up or

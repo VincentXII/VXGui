@@ -1,10 +1,10 @@
 #
-#   Python GUI - Picture class - Generic
+#   Python VXGUI - Picture class - Generic
 #
 
-from GUI import export
-from GUI.Properties import overridable_property
-from GUI import View
+from VXGUI import export
+from VXGUI.Properties import overridable_property
+from VXGUI import View
 
 class Picture(View):
 

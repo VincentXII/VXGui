@@ -4,9 +4,9 @@
 
 from OpenGL.GL import glViewport, glMatrixMode, glLoadIdentity, \
     GL_PROJECTION, GL_MODELVIEW
-from GUI import Component
-from GUI import ViewBase
-from GUI.GLContexts import GLContext
+from VXGUI import Component
+from VXGUI import ViewBase
+from VXGUI.GLContexts import GLContext
 
 class GLError(StandardError):
     pass

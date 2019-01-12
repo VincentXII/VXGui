@@ -1,8 +1,8 @@
 #
-#   Python GUI - Mouse trackers - Generic
+#   Python VXGUI - Mouse trackers - Generic
 #
 
-from GUI import application
+from VXGUI import application
 
 class MouseTracker(object):
     """Iterator used to track movements of the mouse following a mouse_down

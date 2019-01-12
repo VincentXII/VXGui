@@ -1,10 +1,10 @@
 #
-#   Python GUI - Alerts - Generic
+#   Python VXGUI - Alerts - Generic
 #
 
-from GUI import BaseAlert
-from GUI import Button
-from GUI.StdButtons import DefaultButton, CancelButton
+from VXGUI import BaseAlert
+from VXGUI import Button
+from VXGUI.StdButtons import DefaultButton, CancelButton
 
 
 class Alert(BaseAlert):

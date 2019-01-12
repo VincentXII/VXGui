@@ -6,8 +6,8 @@
 
 from __future__ import division
 import win32con as wc, win32gui as gui, win32ui as ui
-from GUI import Font
-from GUI.WinUtils import win_none
+from VXGUI import Font
+from VXGUI.WinUtils import win_none
 
 def _get_win_ppi():
     dc = win_none.GetDC()

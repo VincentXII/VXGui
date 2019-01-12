@@ -1,8 +1,8 @@
 #
-#   Python GUI - Pixmap - Generic
+#   Python VXGUI - Pixmap - Generic
 #
 
-from GUI import ImageBase
+from VXGUI import ImageBase
 
 class Pixmap(ImageBase):
     """A Pixmap is an offscreen area that can be used both as a

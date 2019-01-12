@@ -1,8 +1,8 @@
 #
-#		Python GUI - Basic alert functions - Generic
+#		Python VXGUI - Basic alert functions - Generic
 #
 
-from GUI.GAlertClasses import Alert, Alert2, Alert3
+from VXGUI.GAlertClasses import Alert, Alert2, Alert3
 
 def present_and_destroy(dlog):
     dlog.center()

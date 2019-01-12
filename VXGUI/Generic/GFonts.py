@@ -1,9 +1,9 @@
 #
-#		Python GUI - Fonts - Generic
+#		Python VXGUI - Fonts - Generic
 #
 
 import sys
-from GUI.Properties import overridable_property
+from VXGUI.Properties import overridable_property
 
 class Font(object):
     """A Font object represents a set of characters of a particular 

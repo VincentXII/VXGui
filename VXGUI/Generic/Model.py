@@ -1,10 +1,10 @@
 #
-#		Python GUI - Models - Generic
+#		Python VXGUI - Models - Generic
 #
 
 import weakref
-from GUI import export
-from GUI.Properties import Properties, overridable_property
+from VXGUI import export
+from VXGUI.Properties import Properties, overridable_property
 
 #  List of views for a model is kept separately so that models
 #  can be pickled without fear of accidentally trying to pickle

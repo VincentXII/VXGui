@@ -1,17 +1,17 @@
 #
-#		Python GUI - Application class - Generic
+#		Python VXGUI - Application class - Generic
 #
 
 import os, sys, traceback
-from GUI import Globals
-from GUI.Properties import Properties, overridable_property
-from GUI import MessageHandler
-from GUI.Exceptions import Cancel, UnimplementedMethod, UsageError, \
+from VXGUI import Globals
+from VXGUI.Properties import Properties, overridable_property
+from VXGUI import MessageHandler
+from VXGUI.Exceptions import Cancel, UnimplementedMethod, UsageError, \
     ApplicationError #, Quit
-from GUI.StdMenus import basic_menus
-from GUI.GMenus import MenuState
-from GUI.Files import FileRef
-from GUI.Printing import PageSetup, present_page_setup_dialog
+from VXGUI.StdMenus import basic_menus
+from VXGUI.GMenus import MenuState
+from VXGUI.Files import FileRef
+from VXGUI.Printing import PageSetup, present_page_setup_dialog
 
 class Application(Properties, MessageHandler):
     """The user should create exactly one Application object,
@@ -419,7 +419,7 @@ class Application(Properties, MessageHandler):
         except Cancel:
             pass
         except ApplicationError, e:
-            from GUI.Alerts import stop_alert
+            from VXGUI.Alerts import stop_alert
             stop_alert(str(e))
         except:
             self.report_exception()
@@ -432,7 +432,7 @@ class Application(Properties, MessageHandler):
             exc_type, exc_val, exc_tb = sys.exc_info()
             exc_desc = "%s: %s" % (exc_type.__name__, exc_val)
             self.print_traceback(exc_desc, exc_tb)
-            from GUI.Alerts import alert3
+            from VXGUI.Alerts import alert3
             message = "Sorry, something went wrong."
             result = alert3('stop', "%s\n\n%s" % (message, exc_desc),
                 "Continue", "Abort", "Traceback",

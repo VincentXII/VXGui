@@ -1,10 +1,10 @@
 #
-#   Python GUI - Buttons - Generic
+#   Python VXGUI - Buttons - Generic
 #
 
-from GUI.Properties import overridable_property
-from GUI.Actions import Action
-from GUI import Control
+from VXGUI.Properties import overridable_property
+from VXGUI.Actions import Action
+from VXGUI import Control
 
 class Button(Control, Action):
     """ A pushbutton control."""

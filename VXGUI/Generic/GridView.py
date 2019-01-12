@@ -4,9 +4,9 @@
 #
 #--------------------------------------------------------------------------
 
-from GUI import export
-from GUI.Properties import overridable_property
-from GUI import ScrollableView, rgb
+from VXGUI import export
+from VXGUI.Properties import overridable_property
+from VXGUI import ScrollableView, rgb
 
 class GridView(ScrollableView):
     """A ScrollableView consisting of a grid of equal-sized cells."""

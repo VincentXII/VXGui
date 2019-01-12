@@ -6,9 +6,9 @@
 
 import win32con as wc, win32ui as ui, win32clipboard as wcb, win32api as api, \
     win32gui as gui, win32process as wp
-from GUI import export
-from GUI import Component, Window, WinUtils
-from GUI.GApplications import Application as GApplication
+from VXGUI import export
+from VXGUI import Component, Window, WinUtils
+from VXGUI.GApplications import Application as GApplication
 
 class Application(GApplication):
 

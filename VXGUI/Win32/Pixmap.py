@@ -1,13 +1,13 @@
 #--------------------------------------------------------------------------
 #
-#		Python GUI - Pixmaps - Win32
+#		Python VXGUI - Pixmaps - Win32
 #
 #--------------------------------------------------------------------------
 
 import GDIPlus as gdi
-from GUI import export
-from GUI import Canvas
-from GUI.GPixmaps import Pixmap as GPixmap
+from VXGUI import export
+from VXGUI import Canvas
+from VXGUI.GPixmaps import Pixmap as GPixmap
 
 class Pixmap(GPixmap):
 

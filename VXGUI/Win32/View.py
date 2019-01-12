@@ -5,9 +5,9 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui
-from GUI import export
-from GUI.WinUtils import win_none
-from GUI.GViews import View as GView
+from VXGUI import export
+from VXGUI.WinUtils import win_none
+from VXGUI.GViews import View as GView
 
 win_style = wc.WS_VISIBLE
 win_default_rect = (0, 0, GView._default_size[0], GView._default_size[1])

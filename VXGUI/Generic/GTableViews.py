@@ -1,15 +1,15 @@
 #-------------------------------------------------------------------------------
 #
-#		Python GUI - Table View - Generic
+#		Python VXGUI - Table View - Generic
 #
 #-------------------------------------------------------------------------------
 
-from GUI.Exceptions import UnimplementedMethod
-from GUI.Properties import Properties, overridable_property
-from GUI import Container
-from GUI import ViewBase
-from GUI import ScrollableBase
-from GUI import TextField
+from VXGUI.Exceptions import UnimplementedMethod
+from VXGUI.Properties import Properties, overridable_property
+from VXGUI import Container
+from VXGUI import ViewBase
+from VXGUI import ScrollableBase
+from VXGUI import TextField
 
 default_size = (100, 100)
 

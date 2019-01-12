@@ -1,8 +1,8 @@
 #
-#   Python GUI - Colors - Generic
+#   Python VXGUI - Colors - Generic
 #
 
-from GUI.Properties import overridable_property
+from VXGUI.Properties import overridable_property
 
 class Color(object):
     """A drawing color.

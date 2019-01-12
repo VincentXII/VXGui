@@ -5,10 +5,10 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui
-from GUI import export
-from GUI.StdFonts import application_font
-from GUI.WinUtils import win_none
-from GUI.GTextFields import TextField as GTextField
+from VXGUI import export
+from VXGUI.StdFonts import application_font
+from VXGUI.WinUtils import win_none
+from VXGUI.GTextFields import TextField as GTextField
 
 win_vpad = 5
 win_style = wc.WS_VISIBLE | wc.WS_CLIPSIBLINGS | wc.ES_AUTOHSCROLL # | wc.WS_TABSTOP

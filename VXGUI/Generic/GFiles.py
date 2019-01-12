@@ -1,5 +1,5 @@
 #
-#		Python GUI - File references and types - Generic
+#		Python VXGUI - File references and types - Generic
 #
 #		Classes for dealing with file references and file types
 #		in as platform-independent a manner as possible.
@@ -14,7 +14,7 @@
 #
 
 import os
-from GUI.Properties import Properties, overridable_property
+from VXGUI.Properties import Properties, overridable_property
 
 class FileRef(Properties):
     """A FileRef represents a file system object in a platform-independent way.

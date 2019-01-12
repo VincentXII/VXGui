@@ -6,11 +6,11 @@
 
 from math import ceil
 import win32con as wc, win32ui as ui
-from GUI import export
-from GUI.StdColors import black
-from GUI.StdFonts import system_font
-from GUI.WinUtils import win_none
-from GUI.GLabels import Label as GLabel
+from VXGUI import export
+from VXGUI.StdColors import black
+from VXGUI.StdFonts import system_font
+from VXGUI.WinUtils import win_none
+from VXGUI.GLabels import Label as GLabel
 
 win_style = wc.WS_CLIPSIBLINGS | wc.WS_VISIBLE
 

@@ -7,13 +7,13 @@
 import win32con as wc, win32ui as ui, win32gui as gui
 import GDIPlus as gdi
 import WGL
-from GUI.Components import win_none
-from GUI.OpenGL import WGL as wgl
-from GUI.GGLViews import GLView as GGLView
-from GUI.GGLPixmaps import GLPixmap as GGLPixmap
-from GUI.GGLConfig import GLConfig as GGLConfig, GLConfigError
-from GUI.GLContexts import GLContext
-from GUI.GLTextures import Texture
+from VXGUI.Components import win_none
+from VXGUI.OpenGL import WGL as wgl
+from VXGUI.GGLViews import GLView as GGLView
+from VXGUI.GGLPixmaps import GLPixmap as GGLPixmap
+from VXGUI.GGLConfig import GLConfig as GGLConfig, GLConfigError
+from VXGUI.GLContexts import GLContext
+from VXGUI.GLTextures import Texture
 
 win_style = wc.WS_VISIBLE | wc.WS_CLIPCHILDREN | wc.WS_CLIPSIBLINGS
 win_default_size = GGLView._default_size

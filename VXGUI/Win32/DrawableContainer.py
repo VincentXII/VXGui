@@ -4,11 +4,11 @@
 #
 #--------------------------------------------------------------------
 
-from GUI import export
-from GUI import Canvas
-from GUI.Geometry import rect_topleft, rect_size, offset_rect, empty_rect
-from GUI.GDrawableContainers import DrawableContainer as GDrawableContainer
-import GUI.GDIPlus as gdi
+from VXGUI import export
+from VXGUI import Canvas
+from VXGUI.Geometry import rect_topleft, rect_size, offset_rect, empty_rect
+from VXGUI.GDrawableContainers import DrawableContainer as GDrawableContainer
+import VXGUI.GDIPlus as gdi
 
 class DrawableContainer(GDrawableContainer):
 

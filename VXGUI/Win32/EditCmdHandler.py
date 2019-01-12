@@ -2,8 +2,8 @@
 #   PyGUI - Edit command handling - Win32
 #
 
-from GUI import export
-from GUI.GEditCmdHandlers import EditCmdHandler as GEditCmdHandler
+from VXGUI import export
+from VXGUI.GEditCmdHandlers import EditCmdHandler as GEditCmdHandler
 
 class EditCmdHandler(GEditCmdHandler):
 

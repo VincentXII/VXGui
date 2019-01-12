@@ -6,10 +6,10 @@
 
 import win32con as wc
 from win32api import HIWORD, LOWORD
-from GUI import export
-from GUI.Geometry import add_pt, sub_pt
-from GUI.WinUtils import WinMessageReflector
-from GUI.GContainers import Container as GContainer
+from VXGUI import export
+from VXGUI.Geometry import add_pt, sub_pt
+from VXGUI.WinUtils import WinMessageReflector
+from VXGUI.GContainers import Container as GContainer
 
 class Container(GContainer, WinMessageReflector):
 

@@ -9,12 +9,12 @@ import win32con as wc, win32ui as ui, win32gui as gui
 from win32con import PS_SOLID, BS_SOLID, RGN_AND
 #from win32ui import CreatePen, CreateBrush
 #from win32gui import CloseFigure, PathToRegion, AngleArc
-from GUI import export
-import GUI.GDIPlus as gdip
-from GUI.StdColors import black, white
-from GUI.StdFonts import application_font
-from GUI.WinUtils import win_null_brush
-from GUI.GCanvases import Canvas as GCanvas
+from VXGUI import export
+import VXGUI.GDIPlus as gdip
+from VXGUI.StdColors import black, white
+from VXGUI.StdFonts import application_font
+from VXGUI.WinUtils import win_null_brush
+from VXGUI.GCanvases import Canvas as GCanvas
 
 deg = pi / 180
 

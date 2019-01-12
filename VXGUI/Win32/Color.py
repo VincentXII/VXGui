@@ -6,8 +6,8 @@
 
 from __future__ import division
 import win32con as wc, win32ui as ui
-from GUI import export
-from GUI.GColors import Color as GColor
+from VXGUI import export
+from VXGUI.GColors import Color as GColor
 
 #--------------------------------------------------------------------
 

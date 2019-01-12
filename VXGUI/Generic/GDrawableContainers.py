@@ -4,10 +4,10 @@
 #
 #--------------------------------------------------------------------
 
-from GUI.Geometry import rect_sized
-from GUI import Container
-from GUI import ViewBase
-from GUI.Printing import Printable
+from VXGUI.Geometry import rect_sized
+from VXGUI import Container
+from VXGUI import ViewBase
+from VXGUI.Printing import Printable
 
 default_size = (100, 100)
 

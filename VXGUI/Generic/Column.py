@@ -5,7 +5,7 @@
 #---------------------------------------------------------------------------
 
 from LayoutUtils import equalize_components
-from GUI import Frame, export
+from VXGUI import Frame, export
 
 class Column(Frame):
 

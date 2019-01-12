@@ -4,4 +4,4 @@
 #
 #--------------------------------------------------------------------
 
-from GUI.GFiles import FileRef, DirRef, FileType
+from VXGUI.GFiles import FileRef, DirRef, FileType

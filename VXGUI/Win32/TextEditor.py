@@ -1,13 +1,13 @@
 #
-#   Python GUI - Text Editor - Win32
+#   Python VXGUI - Text Editor - Win32
 #
 
 from __future__ import division
 import win32con as wc, win32ui as ui
-from GUI import export
-from GUI.GTextEditors import TextEditor as GTextEditor
-from GUI.WinUtils import win_none
-from GUI.StdFonts import application_font
+from VXGUI import export
+from VXGUI.GTextEditors import TextEditor as GTextEditor
+from VXGUI.WinUtils import win_none
+from VXGUI.StdFonts import application_font
 
 PFM_TABSTOPS = 0x10
 MAX_TAB_STOPS = 32

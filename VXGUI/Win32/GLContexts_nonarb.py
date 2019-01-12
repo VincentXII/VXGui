@@ -6,7 +6,7 @@
 
 import OpenGL as gl
 from OpenGL import WGL as wgl
-from GUI.GGLContexts import GLContext as GGLContext
+from VXGUI.GGLContexts import GLContext as GGLContext
 
 class GLContext(GGLContext):
     #  _win_dc       Device context

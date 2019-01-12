@@ -6,13 +6,13 @@
 
 import win32con as wc, win32ui as ui, win32gui as gui, win32api as api
 
-from GUI import export
-from GUI.Geometry import sub_pt
-from GUI import application
-from GUI.WinUtils import win_none, win_event_messages
-from GUI.WinEvents import win_message_to_event, win_prev_key_state
-from GUI.Exceptions import Cancel
-from GUI.GComponents import Component as GComponent, transform_coords
+from VXGUI import export
+from VXGUI.Geometry import sub_pt
+from VXGUI import application
+from VXGUI.WinUtils import win_none, win_event_messages
+from VXGUI.WinEvents import win_message_to_event, win_prev_key_state
+from VXGUI.Exceptions import Cancel
+from VXGUI.GComponents import Component as GComponent, transform_coords
 
 win_swp_flags = wc.SWP_NOACTIVATE | wc.SWP_NOZORDER
 win_sws_flags = win_swp_flags | wc.SWP_NOMOVE

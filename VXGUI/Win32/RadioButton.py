@@ -5,10 +5,10 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui
-from GUI import export
-from GUI.StdFonts import system_font
-from GUI.ButtonBases import ButtonBase
-from GUI.GRadioButtons import RadioButton as GRadioButton
+from VXGUI import export
+from VXGUI.StdFonts import system_font
+from VXGUI.ButtonBases import ButtonBase
+from VXGUI.GRadioButtons import RadioButton as GRadioButton
 
 win_check_size = 13
 win_hpad = 5

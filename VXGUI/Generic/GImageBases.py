@@ -1,9 +1,9 @@
 #
-#   Python GUI - Image Base - Generic
+#   Python VXGUI - Image Base - Generic
 #
 
-from GUI.Properties import Properties, overridable_property
-from GUI.Geometry import rect_sized
+from VXGUI.Properties import Properties, overridable_property
+from VXGUI.Geometry import rect_sized
 
 class ImageBase(Properties):
     """Abstract base class for Image, Pixmap and GLPixmap."""

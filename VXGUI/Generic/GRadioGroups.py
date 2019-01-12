@@ -1,9 +1,9 @@
 #
-#		Python GUI - Radio groups - Generic
+#		Python VXGUI - Radio groups - Generic
 #
 
-from GUI.Properties import Properties, overridable_property
-from GUI.Actions import Action
+from VXGUI.Properties import Properties, overridable_property
+from VXGUI.Actions import Action
 
 class RadioGroup(Properties, Action):
     """A RadioGroup coordinates a group of RadioButtons.

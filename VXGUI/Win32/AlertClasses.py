@@ -4,4 +4,4 @@
 #
 #--------------------------------------------------------------------
 
-from GUI.GAlertClasses import Alert, Alert2, Alert3
+from VXGUI.GAlertClasses import Alert, Alert2, Alert3

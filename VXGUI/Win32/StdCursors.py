@@ -1,11 +1,11 @@
 #--------------------------------------------------------------------------
 #
-#		Python GUI - Standard Cursors - Win32
+#		Python VXGUI - Standard Cursors - Win32
 #
 #--------------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui
-from GUI import Cursor
+from VXGUI import Cursor
 
 __all__ = [
     'arrow',

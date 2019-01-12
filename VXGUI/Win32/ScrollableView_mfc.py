@@ -5,11 +5,11 @@
 #--------------------------------------------------------------------
 
 import win32con as wc, win32ui as ui
-from GUI.Components import win_none
-from GUI.Canvases import Canvas
-from GUI.GScrollableViews import ScrollableView as GScrollableView, \
+from VXGUI.Components import win_none
+from VXGUI.Canvases import Canvas
+from VXGUI.GScrollableViews import ScrollableView as GScrollableView, \
     default_extent, default_line_scroll_amount
-from GUI.Geometry import add_pt, sub_pt, offset_rect, offset_rect_neg
+from VXGUI.Geometry import add_pt, sub_pt, offset_rect, offset_rect_neg
 
 win_style = ui.AFX_WS_DEFAULT_VIEW
 

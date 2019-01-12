@@ -4,9 +4,9 @@
 #
 #-------------------------------------------------------------------------------
 
-from GUI.Compatibility import set
-from GUI import Menu
-from GUI import MenuList
+from VXGUI.Compatibility import set
+from VXGUI import Menu
+from VXGUI import MenuList
 
 #-------------------------------------------------------------------------------
 

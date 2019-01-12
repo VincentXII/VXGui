@@ -1,12 +1,12 @@
 #
-#   Python GUI - Text fields - Generic
+#   Python VXGUI - Text fields - Generic
 #
 
-from GUI.Properties import overridable_property
-from GUI.Actions import ActionBase, action_property
-from GUI import application
-from GUI import Control
-from GUI import EditCmdHandler
+from VXGUI.Properties import overridable_property
+from VXGUI.Actions import ActionBase, action_property
+from VXGUI import application
+from VXGUI import Control
+from VXGUI import EditCmdHandler
 
 class TextField(Control, ActionBase, EditCmdHandler):
     """A control for entering and editing small amounts of text."""

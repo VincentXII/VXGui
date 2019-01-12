@@ -1,12 +1,12 @@
 #-------------------------------------------------------------------------------
 #
-#		Python GUI - Table Text Column - Generic
+#		Python VXGUI - Table Text Column - Generic
 #
 #-------------------------------------------------------------------------------
 
-from GUI import export
-from GUI.Properties import overridable_property
-from GUI import TableColumn
+from VXGUI import export
+from VXGUI.Properties import overridable_property
+from VXGUI import TableColumn
 
 class TextColumn(TableColumn):
 

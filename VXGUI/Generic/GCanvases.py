@@ -1,10 +1,10 @@
 #
-#   Python GUI - Drawing - Generic
+#   Python VXGUI - Drawing - Generic
 #
 
-from GUI.StdColors import black, white
-from GUI.StdFonts import application_font
-from GUI.Properties import Properties, overridable_property
+from VXGUI.StdColors import black, white
+from VXGUI.StdFonts import application_font
+from VXGUI.Properties import Properties, overridable_property
 
 class Canvas(Properties):
 

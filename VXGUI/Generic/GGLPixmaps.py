@@ -3,8 +3,8 @@
 #
 
 from OpenGL.GL import glViewport
-from GUI import ImageBase
-from GUI.GLContexts import GLContext
+from VXGUI import ImageBase
+from VXGUI.GLContexts import GLContext
 
 class GLPixmap(ImageBase, GLContext):
     """An offscreen OpenGL drawing area.

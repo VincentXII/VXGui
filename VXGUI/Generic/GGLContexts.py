@@ -2,8 +2,8 @@
 #   PyGUI - OpenGL Contexts - Generic
 #
 
-from GUI.Properties import overridable_property
-from GUI.GLShareGroups import ShareGroup
+from VXGUI.Properties import overridable_property
+from VXGUI.GLShareGroups import ShareGroup
 
 _current_share_group = None
 

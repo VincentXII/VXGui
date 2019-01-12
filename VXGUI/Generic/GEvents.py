@@ -1,5 +1,5 @@
 #
-#		Python GUI - Events - Generic
+#		Python VXGUI - Events - Generic
 #
 
 class Event(object):
@@ -62,7 +62,7 @@ class Event(object):
         return view.global_to_local(self.global_position)	
 
     def __str__(self):
-        return "<GUI.Event: %s global:%s local:%s time:%s clicks:%s char:%r" \
+        return "<VXGUI.Event: %s global:%s local:%s time:%s clicks:%s char:%r" \
             " key:%s shift:%s control:%s option:%s extend_contig:%s" \
             " extend_noncontig:%s auto:%s%s>" \
             % (self.kind, self.global_position, self.position, self.time,

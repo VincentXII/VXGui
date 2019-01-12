@@ -5,9 +5,9 @@
 #--------------------------------------------------------------------
 
 import win32gui as gui 
-from GUI import export
-from GUI import application
-from GUI.GViewBases import ViewBase as GViewBase
+from VXGUI import export
+from VXGUI import application
+from VXGUI.GViewBases import ViewBase as GViewBase
 
 class ViewBase(GViewBase):
     
