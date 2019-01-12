@@ -10,8 +10,7 @@ import sys, types
 #  to try to import. If the import is successful, the platform-dependent
 #  directory named by the second item is used.
 
-_versions = [
-    ("objc", "Cocoa"),
+_versions = [,
     ("nt", "Win32"),
     ("gi.repository.Gtk", "GtkGI"),
     ("gtk", "Gtk"),
