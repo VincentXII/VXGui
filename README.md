@@ -5,7 +5,6 @@ VXGui is a fork of the experimental Python GUI Framework PyGUI.
 
 Three implementations are provided in this version: 
 
-* MacOSX - requires PyObjC
 * Linux - requires pygtk
 * Windows - requires pywin32 and ctypes
 
