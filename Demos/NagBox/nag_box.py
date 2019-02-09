@@ -1,4 +1,4 @@
-from GUI import ModalDialog, Label, Button, Task, application
+from VXGUI import ModalDialog, Label, Button, Task, application
 
 class NagBox(ModalDialog):
 

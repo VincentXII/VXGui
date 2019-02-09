@@ -104,8 +104,8 @@ class WinMessageReflector(object):
             meth(*args)
 
     def _win_menu_command(self, id):
-        raise InternalError("_win_menu_command called on non-window: %r" % self)
-
+        return
+        
 win_none_wrapper = WinMessageReflector()
 win_none_wrapper._win = win_none
 win_none_wrapper._win_install_event_hooks(win_none)
