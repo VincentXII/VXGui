@@ -1,11 +1,12 @@
+
 from VXGUI import Window, ListButton, application
 from testing import say
 
 def report():
-    print "Value =", but.value
+    print ("Value =", but.value)
 
 but = ListButton(position = (20, 20),
-    titles = ["Item %d" % i for i in xrange(30)],
+    titles = ["Item %d" % i for i in range(30)],
     action = report)
 but.value = 42
 win = Window(title = "List Button")

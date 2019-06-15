@@ -2,6 +2,8 @@ from VXGUI import Window, ModalDialog, Label, Button, \
     TextField, application
 from VXGUI.StdButtons import DefaultButton, CancelButton
 from testing import say
+def pree():
+    print("ayeet")
 
 def modal_dialog():
     #global dlog ###
@@ -10,7 +12,7 @@ def modal_dialog():
     field = TextField()
     dlog.place(field, left = 20, top = 60, right = -20)
     field.become_target()
-    dlog.default_button = DefaultButton()
+    dlog.default_button = DefaultButton(action = pree)
     dlog.cancel_button = CancelButton()
     dlog.place(dlog.default_button, right = -20, bottom = -20)
     dlog.place(dlog.cancel_button, left = 20, bottom = -20)

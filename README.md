@@ -1,6 +1,8 @@
 Welcome to VXGUI
 ================
 
+This package is supported on the latest python version (3.7.3)
+
 VXGui is a fork of the experimental Python GUI Framework PyGUI.
 
 Three implementations are provided in this version: 

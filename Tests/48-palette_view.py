@@ -1,4 +1,4 @@
-from VXGUI import Window, PaletteView, run
+from GUI import Window, PaletteView, run
 from testing import say
 
 class TestPaletteView(PaletteView):
@@ -16,7 +16,7 @@ class TestPaletteView(PaletteView):
         c.show_text(t)
     
     def click_item(self, i, event):
-        print "Item %d clicked" % i
+        print ("Item %d clicked" % i)
 
 
 win = Window(title = "Palette View")

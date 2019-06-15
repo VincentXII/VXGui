@@ -1,0 +1,1 @@
+### These folders are for platforms other then Windows. Removed for compatibillity.

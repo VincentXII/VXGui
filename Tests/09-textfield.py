@@ -10,9 +10,9 @@ class TestWindow(Window):
     def key_down(self, event):
         c = event.char
         if c == '\r':
-            print "Default"
+            print ("Default")
         elif c == '\x1b':
-            print "Cancel"
+            print ("Cancel")
         else:
             Window.key_down(self, event)
 
@@ -23,13 +23,13 @@ class TestTextField(TextField):
         self.number = number
     
     def do_text_changed_action(self):
-        print "Field %s text changed" % self.number
+        print ("Field %s text changed" % self.number)
     
     def targeted(self):
-        print "Field %s targeted" % self.number
+        print ("Field %s targeted" % self.number)
 
     def untargeted(self):
-        print "Field %s untargeted" % self.number
+        print ("Field %s untargeted" % self.number)
 
 def show_text(win):
     fields = [win.tf1, win.tf2, win.tf3]
